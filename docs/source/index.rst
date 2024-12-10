@@ -1,5 +1,5 @@
 
-Welcome to Polaric Server documentation!
+Welcome to Arctic Tracker documentation!
 ========================================
 
 The *"Polaric Server"* is mainly a web based service to present live tracking information (APRS, AIS, etc) on maps and where the information is updated in realtime. It is originally targeted for use by radio amateurs in voluntary search and rescue service in Norway. It consists of a web application and a server program (APRS daemon). It runs on e.g. aprs.no as a online service on the internet, but we could also bring it with us out in the field in a portable computer, possibly with its own LAN, APRS modems and radios. *A goal is that it should be able to work without always being online with a good connection to the internet*.
