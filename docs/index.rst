@@ -2,7 +2,10 @@
 Welcome to Arctic Tracker documentation!
 ========================================
 
-The *"Polaric Server"* is mainly a web based service to present live tracking information (APRS, AIS, etc) on maps and where the information is updated in realtime. It is originally targeted for use by radio amateurs in voluntary search and rescue service in Norway. It consists of a web application and a server program (APRS daemon). It runs on e.g. aprs.no as a online service on the internet, but we could also bring it with us out in the field in a portable computer, possibly with its own LAN, APRS modems and radios. *A goal is that it should be able to work without always being online with a good connection to the internet*.
+Arctic Tracker is an APRS tracker platform based on the ESP32S3 MCU module, a GPS, a display and a VHF/UHF transceiver module. Hardware prototypes were created mainly as experimental prototypes to show how we can build a tracker using affordable modules. The Arctic Tracker is also a IoT device capable of using WIFI and the internet when this is available: For easy configuration, for pushing APRS data, etc. It can also function as a igate. 
+
+See http://www.hamlabs.no for some blogging about this project and on the `port to the T-TWR <http://hamlabs.no/2024/03/22/arctic-tracker-software-on-lilygo-t-twr-plus/>`_ in particular.
+
 
 Main features
 -------------
