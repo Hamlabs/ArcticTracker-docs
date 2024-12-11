@@ -33,7 +33,6 @@ Contents
 
 .. toctree::
    
-   concepts
    gettingstarted
    config
    interface
