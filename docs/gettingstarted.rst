@@ -2,9 +2,9 @@
 Getting started
 ***************
 
-This is a guide how to get an instance up and running with a very basic configuration rather quickly. *Polaric Server* (*aprsd*) runs on a standard JVM platform (Java 17 or later is required from version 2.12) and the client (*webapp2*) runs on a fairly standard webserver (Apache 2 is currently supported). Deb packages are available to allow easy installation on several Linux distributions such as Debian, Ubuntu, Raspbian, Armbian, etc. 
+This is a guide how to get a tracker up and running with a basic configuration rather quickly. The *Arctic Tracker* firmware runs on several hardware platforms: The Arctic Tracker 4 VHF and UHF/LoRa version and the LilyGo T-TWR-plus 2.0. 
 
-In addition to standard PCs it has been reported to work on smaller devices like the Raspberry PI, the Microsat Ulari Duo 2, etc.. See an article on how to run it on the Ulari `here <http://hamlabs.no/2022/03/27/polaric-server-runs-well-on-ulari/>`_:
+The firmware can be built from the source using esp-idf. Or installed from a binary archive if this exists for the hardware. A USB/serial command shell gives full control over settings. The tracker can also be configured through a web-interface or a smartphone app using WIFI. It is possible to use the tracker as an access point and connect to it. For full control it is recommended to use the command shell at least the first time.  
 
 
 .. toctree::
