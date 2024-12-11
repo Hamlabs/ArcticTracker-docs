@@ -32,7 +32,6 @@ Contents
 --------
 
 .. toctree::
-   
+
+   hardware
    gettingstarted
-   config
-   interface
