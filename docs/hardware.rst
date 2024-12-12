@@ -11,6 +11,8 @@ Then came the ESP32 and the `second round prototype <http://hamlabs.no/2019/06/2
 
 After the pandemic there was time for a `critical review <http://hamlabs.no/2019/06/23/second-round-of-tracker-project/>`_ and some options were considered. Some serious design flaws were discussed and a `third round prototype <http://hamlabs.no/2023/01/10/arctic_third_round/>`_ was designed. It used another display on the outside of the enclosure (with a 3D-printed cover), it added a charger chip for the battery and a USB-C breakout module. It didn't use power from the USB to charge though. It replaced a problematic switch for the PA-module. The plain ESP32 was replaced with a ESP32S3. This tracker worked reasonably well though the battery and charging was problematic. 5 working prototypes were made. 
 
+.. image:: img/20221219_135321.jpg
+
 See all `Hamlabs posts on Arctic Tracker here <http://hamlabs.no/category/projects/at/>`_. 
 
 Arctic Tracker 4 VHF
