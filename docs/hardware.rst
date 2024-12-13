@@ -17,11 +17,11 @@ See all `Hamlabs posts on Arctic Tracker here <http://hamlabs.no/category/projec
 
 Arctic Tracker 4 VHF
 --------------------
-In the fourth round it was decided to make another version of the VHF tracker, but with several changes (some of them inspired by the LilyGo projects): A SA868 module was used and the PA was dropped. This means that we could do with a 3.7V battery, a PMU was used to manage power and charging of the battery, a USB-C socket mounted directly on the PCB which was also used for charging and power-supply. A separate 5V DC/DC converter for the radio. A smaller (Hammond) enclosure with 3D printed top and bottom. The whole thing got simpler, but we also decided to design a 4-layer PCB and let the factory in China assemble most of it. Exceptions were the radio module, the antenna plug, the connector on the back and (in the first version) also the ESP32 module.
+In the fourth round it was decided to make another version of the VHF tracker, but with several changes (some of them inspired by the LilyGo projects): A NiceRF SA868 rado-module was used and the PA was dropped. This means that we could do with a 3.7V battery, a PMU was used to manage power and charging of the battery, a USB-C socket mounted directly on the PCB which was also used for charging and power-supply. A separate 5V DC/DC converter for the radio. A smaller (Hammond) enclosure with 3D printed top and bottom. The whole thing got simpler, but we also decided to design a 4-layer PCB and let the factory in China assemble most of it. Exceptions were the radio module, the antenna plug, the connector on the back and (in the first test-version) also the ESP32 module.
 
-There seems to be an issue with the squelch of the SA868, but with the use of a software squelch (for decoding) and the RSSI command for deciding if the channel is clear for transmission, it works. The SA868 is open in the sense that alternative firmware can be flashed to it using contacts on its back-side. Currently we use the stock firmware. 
+The transmitter yields up to 3 watts output. This may cause the PMU to shut down the tracker if there is too much voltage drop in the battery (it is tested with some old batteries). The TX power can be turned down to about 1 watt from the software. 
 
-The transmitter yields up to 3 watts output. This may cause the PMU to shut down the tracker if there is too much voltage drop in the battery. It can be turned down to 1 watt from the software. 
+There seems to be an issue with the squelch of the SA868, but with the use of a software squelch (for decoding) and the RSSI command for deciding if the channel is clear for transmission, it works well. The SA868 is also open in the sense that alternative (open source) firmware can be flashed to it using contacts on its back-side. Currently we use it with the stock firmware. This may change later.
 
 .. image:: img/20240922_154745.jpg
 
