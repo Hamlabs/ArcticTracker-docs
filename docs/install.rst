@@ -6,9 +6,9 @@ A quick way to get a tracker up and running is to install a pre-built firmware i
 
 Flashing a pre-built binary
 ---------------------------
-We intend to post pre-compiled binaries with each release and are also available [here](https://arctictracker.no/download/). The complicating factor is that there are more than one way to do it and that the firmware consists of multiple parts: The *bootloader*, the *partition table*, *the webapp*, etc.. 
+We intend to post pre-compiled binaries with each release and are also available `here <https://arctictracker.no/download/>`_. The complicating factor is that there are more than one way to do it and that the firmware consists of multiple parts: The *bootloader*, the *partition table*, *the webapp*, etc.. 
 
-Download the proper *ArcticTracker.xx.zip* file and unpack it in a directory. Go to that directory and use *esptool* or a similar tool (on Windows, we may use the [*flash download tool*](https://www.espressif.com/en/support/download/other-tools) from Expressif). The *flash_all.sh* script shows how to use the *esptool* program. The same parameters can be used in the Windows *flash download tool*. On a Linux system you may just run the *flash_all.sh* script to flash everything. 
+Download the proper *ArcticTracker.xx.zip* file and unpack it in a directory. Go to that directory and use *esptool* or a similar tool (on Windows, we may use the `flash download tool <https://www.espressif.com/en/support/download/other-tools>`_ from Expressif). The *flash_all.sh* script shows how to use the *esptool* program. The same parameters can be used in the Windows *flash download tool*. On a Linux system you may just run the *flash_all.sh* script to flash everything. 
 
 You may choose to update only the app (ArcticTracker.bin) or the Webapp (webapp.bin) if you want and if the other parts are in place. Use the the addresses provided. 
 
