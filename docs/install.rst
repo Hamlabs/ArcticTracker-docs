@@ -4,6 +4,16 @@ Installing Arctic Tracker firmware
 
 A quick way to get a tracker up and running is to install a pre-built firmware image. For full control you could build the firmware yourself. It can be useful if you want to modify the code or if you for maximum security want to generate a SSL-certificate specifically for your firmware and keep the private key secret. 
 
+Flashing a pre-built binary
+---------------------------
+We intend to post pre-compiled binaries with each release and are also available [here](https://arctictracker.no/download/). The complicating factor is that there are more than one way to do it and that the firmware consists of multiple parts: The *bootloader*, the *partition table*, *the webapp*, etc.. 
+
+Download the proper *ArcticTracker.xx.zip* file and unpack it in a directory. Go to that directory and use *esptool* or a similar tool (on Windows, we may use the [*flash download tool*](https://www.espressif.com/en/support/download/other-tools) from Expressif). The *flash_all.sh* script shows how to use the *esptool* program. The same parameters can be used in the Windows *flash download tool*. On a Linux system you may just run the *flash_all.sh* script to flash everything. 
+
+You may choose to update only the app (ArcticTracker.bin) or the Webapp (webapp.bin) if you want and if the other parts are in place. Use the the addresses provided. 
+
+I hope to add some information about flashing via the WIFI (OTA flashing).. 
+
 Building the firmware
 ---------------------
 The firmware can be built from source with *esp-idf* (version 5.0.x) and the *idf.py* tool. Follow the instructions to install the *esp-idf* and run the necessary scripts there first to set it up. Download the *Arctic Tracker* repository into another directory. cd to this directory and run the following commands to add external components.:: 
