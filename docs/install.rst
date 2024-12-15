@@ -6,7 +6,7 @@ A quick way to get a tracker up and running is to install a pre-built firmware i
 
 Building the firmware
 ---------------------
-The firmware can be built from source with *esp-idf* (version 5.0.x) and the *idf.py* tool. Follow the instructions to install the *esp-idf* and run the necessary scripts there first to set it up. Download the *Arctic Tracker* repository in another directory. cd to this directory and run the following commands to add external components.:: 
+The firmware can be built from source with *esp-idf* (version 5.0.x) and the *idf.py* tool. Follow the instructions to install the *esp-idf* and run the necessary scripts there first to set it up. Download the *Arctic Tracker* repository into another directory. cd to this directory and run the following commands to add external components.:: 
 
   idf.py add-dependency "espressif/mdns^1.2.4" 
   idf.py add-dependency "espressif/led_strip^2.5.3" 
