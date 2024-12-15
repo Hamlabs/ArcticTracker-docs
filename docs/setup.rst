@@ -8,6 +8,9 @@ The Arctic Tracker offers a serial console (command shell). This lets you contro
 
 .. image:: img/console.png
 
+The ‘help‘ command gives you a list of available commands. ‘help <command>‘ gives a short explanation of the given command. Be sure to set the callsign (‘mycall‘). The ‘tracker’ command turns on or off the tracking function (it is on by default). ‘radio on’ command turns on the radio. The ‘wifi on’ command turns on the WIFI. The ‘ap’ command lets you set up a list of WIFI access points. The tracker will try to connect to these in order if they are in range. If the first one fails, it will try the next. Also, before you try to use the webapp, use the ‘api-key’ to set a secret key to be used for the webapp to authenticate. If things are working as expected, you should also be able to get to the most important settings with a web-browser.
+
+It is also possible to do the initial configuration by activating the softap (can be done by activating the menu on the display by pushing the button and holdning it one second). Go to the menu-item that says Softap on and push the button to confirm. 
 
 Configuring the Wifi
 --------------------
