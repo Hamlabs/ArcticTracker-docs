@@ -32,6 +32,7 @@ A UHF version (433 MHz) has also been made that can operate on LoRa APRS. It is 
 
 The UHF version of the tracker can transmit with up to 1 watt output and has an enhanced receiver.
 
+.. image:: img/20241119_213542.jpg
 
 
 LilyGo T-TWR Plus
