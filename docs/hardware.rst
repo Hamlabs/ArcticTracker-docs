@@ -37,3 +37,8 @@ The UHF version of the tracker can transmit with up to 1 watt output and has an 
 
 LilyGo T-TWR Plus
 -----------------
+`LilyGo<https://lilygo.cc>`_ offers a series of innovative open source hardware boards, many of them using the ESP32 and many of them with a radio module (typically LoRa), a GNSS module, etc. One particular board (for radio amateurs) is the T-TWR-plus. Coming with a VHF or UHF radio module, a GNSS module, a ESP32S3, etc. It can be used as a voice-radio, even a digital voice radio (with M17) as done in the OpenRTX project, but also as a APRS tracker as done in the ESP32APRS project. The T-TWR has many similarities with the Arctic Tracker prototype, so I got a question if I could be interested in porting the Arctic Tracker software to it. So I did and this also inspired me to work further with the Arctic Tracker hardware. 
+
+
+
+
