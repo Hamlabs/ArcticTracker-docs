@@ -28,6 +28,11 @@ There seems to be an issue with the squelch of the SA868, but with the use of a 
 
 Arctic Tracker 4 UHF/LoRa
 -------------------------
+A UHF version (433 MHz) has also been made that can operate on LoRa APRS. It is based on the VHF version where the SA-868 is replaced with a LoRa1268F30-Mini. The 5V regulator is also replaced since the module requires 4V for the transmitter. As soon as LoRa APRS became legal in Norway, i.e. the telecomms authorities opened up for up to 200 kHz bandwidth in the lower part of the 70 cm band, the PCB design was ready to be sent to production.
+
+The UHF version of the tracker can transmit with up to 1 watt output and has an enhanced receiver.
+
+
 
 LilyGo T-TWR Plus
 -----------------
