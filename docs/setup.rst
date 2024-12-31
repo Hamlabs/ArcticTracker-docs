@@ -6,7 +6,7 @@ For first-time setup it is recommended to use the *command shell* (console) as d
 
 Using the command shell
 -----------------------
-The Arctic Tracker offers a serial console (command shell).  This lets you control every setting and has some commands for testing,  debugging, etc. It is recommended  to use it the first time you start the tracker for setting the wifi  access point, access-key, etc. When you plug in a USB-C cable and connect it to your computer a serial interface should appear (on Linux it is /dev/ttyACM0). A good old serial terminal program (VT102 mode is preferable) will probably work. The monitor command of idf.py (if you have the esp-idf installed), should also work. You may need to reset the tracker to get up the command prompt (cmd>). 
+The Arctic Tracker offers a serial console (command shell).  This lets you control every setting and has some commands for testing,  debugging, etc. It is recommended  to use it the first time you start the tracker for setting the wifi  access point, access-key, etc. When you plug in a USB-C cable and connect it to your computer a serial interface should appear. On Linux it is typically */dev/ttyACM0*. On Windows you can see in the device-manager what the COM-port it is mapped to. It is usually *COM3*. A good old serial terminal program (VT102 mode is preferable) will probably work. On Linux *Minicom* works well, on Windows *Putty* is popular. The monitor command of *idf.py* (if you have the esp-idf installed), should also work. You may need to reset the tracker to get up the command prompt (*cmd>*). 
 
 .. image:: img/console.png
 
