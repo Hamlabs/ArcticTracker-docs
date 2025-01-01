@@ -26,7 +26,7 @@ The web-app can also be used to edit the list of access points, the keys, etc..
 
 Using the Web App
 -----------------
-The tracker can be configured using a web-app. It can discover and connect to trackers on the same LAN and it can connect to several trackers at the same time. First time you connect to a tracker this way, load the webapp from the tracker itself. Point the browser to 'https://arctic-XXXX.local/' where XXXX is the callsign you gave the tracker. You can also see the hostname on the display or when using the 'wifi-info' command. 
+The tracker can be configured using a `web-app <https://github.com/Hamlabs/ArcticTracker-Webapp>`_. It can discover and connect to trackers on the same LAN and it can connect to several trackers at the same time. First time you connect to a tracker this way, load the webapp from the tracker itself. Point the browser to 'https://arctic-XXXX.local/' where XXXX is the callsign you gave the tracker. You can also see the hostname on the display or when using the 'wifi-info' command. 
 
 The first time you are opening the webpage this way, the browser will complain that its certificate cannot be verified. This is because it is self-signed. If you feel confident that you are really connecting to your tracker you can add an exception to the browser to let it accept the webpage. Later connections to the same tracker will then work, even if the webapp is coming from somewhere else. 
 
