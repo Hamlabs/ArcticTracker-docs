@@ -14,14 +14,15 @@ The ‘help‘ command gives you a list of available commands. ‘help <command>
 
 ﻿﻿The 'digipath' (digipeater path) is by default set to 'WIDE1-1', if you need to use multi-hop digipeating it could be set to '"WIDE1-1,WIDE2-2'. 'timestamp' (timestamped packets) and 'compress' (compressed packets) are also on by default. 'symbol' (aprs symtable/overlay and symbol) is by default set to'/[' which means a running person is to be shown on the map.
  
-Configuring the Wifi
---------------------
+Connecting to a Wifi access point
+---------------------------------
 The first time the tracker is used, you could use the 'ap' command to set the access-point to use.::
 
   ap 1 <ssid> <key>
 
-Up to 6 alternative access-points can be given. First index is 1. The first one will be tried first, if that fails, it will try the next, etc. Give the command 'wifi on' to turn on the wifi. Then it should try to connect. The command 'wifi-info' will return information so you can see if it succeeds to connect, what IP-address it gets, etc.. 
+Up to 6 alternative access-points can be given. First index is 1. The first one will be tried first, if that fails, it will try the next, etc. When you turn on the wifi it should try to connect to the access point. Use the 'wifi-info' to see if it succeeds to connect, what IP-address it gets, etc.. 
 
+The web-app can also be used to edit the list of access points, the keys, etc.. 
 
 Using the Web App
 -----------------
