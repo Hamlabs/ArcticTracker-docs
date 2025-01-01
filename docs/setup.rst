@@ -16,10 +16,11 @@ The ‘help‘ command gives you a list of available commands. ‘help <command>
  
 Configuring the Wifi
 --------------------
-The first time the tracker is used, you could use the 'ap' command to set the access-point to use:  
-   ap 1 *ssid* *key*
+The first time the tracker is used, you could use the 'ap' command to set the access-point to use.::
 
-Give the command 'wifi on' to turn on the wifi. Then it should try to connect. The command 'wifi-info' will return information so you can see if it succeeds to connect, what IP-address it gets, etc.. 
+  ap 1 *ssid* *key*
+
+Up to 6 alternative access-points can be given. The first one will be tried first, if that fails, it will try the next, etc. Give the command 'wifi on' to turn on the wifi. Then it should try to connect. The command 'wifi-info' will return information so you can see if it succeeds to connect, what IP-address it gets, etc.. 
 
 
 Using the Web App
