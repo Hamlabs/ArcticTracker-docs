@@ -26,6 +26,14 @@ The web-app can also be used to edit the list of access points, the keys, etc..
 
 Using the Web App
 -----------------
+The tracker can be configured using a web-app. It can discover and connect to trackers on the same LAN and it can connect to several trackers at the same time. First time you connect to a tracker this way, load the webapp from the tracker itself. Point the browser to 'https://arctic-XXXX.local/' where XXXX is the callsign you gave the tracker. You can also see the hostname on the display or when using the 'wifi-info' command. 
+
+The first time you are opening the webpage this way, the browser will complain that its certificate cannot be verified. This is because it is self-signed. If you feel confident that you are really connecting to your tracker you can add an exception to the browser to let it accept the webpage. Later connections to the same tracker will then work, even if the webapp is coming from somewhere else. 
+
+Now, add the tracker. Click on the lock-icon and fill inn the callsign field and click 'add'. Now, the callsign should appear on the screen in a box. The first time you access the tracker you also need to add the API key. This key can be set in the command-shell ('api-key' command) or in the web-app. By default it is '123456789'. It is recommended to change it at your first convenience. If the correct key is set and we have connected sucessfully to the tracker, the box with the callsign will turn green. 
+
+If at least one tracker is connected it will automatically discover other trackers on the LAN (using mDNS). To connect to them, click the callsign-box and (if not added earlier) add the API-key. 
+
 
 Using the Soft AP
 -----------------
