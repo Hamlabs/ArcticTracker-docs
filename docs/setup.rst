@@ -35,11 +35,12 @@ Now, add the tracker. Click on the lock-icon and fill inn the callsign field and
 If at least one tracker is connected it will automatically discover other trackers on the LAN (using mDNS). To connect to them, click the callsign-box and (if not added earlier) add the API-key. 
 
 The web-app has a menu with 5 choices: 
-- Status - show info on tracker
-- Wifi - configure Wifi access points, Wifi Soft AP and keys. 
-- Aprs - Configure callsign, radio frequency, APRS confg like symbol, path, etc..
-- Digi/Igate - Digipeater and igate setup. 
-- TrkLog - Track logging setup. Automatic uploading of tracks to a Polaric Server instance.
+
+* Status - show info on tracker
+* Wifi - configure Wifi access points, Wifi Soft AP and keys. 
+* Aprs - Configure callsign, radio frequency, APRS confg like symbol, path, etc..
+* Digi/Igate - Digipeater and igate setup. 
+* TrkLog - Track logging setup. Automatic uploading of tracks to a Polaric Server instance.
 
 In addition you can select and set up connections to trackers. 
 
