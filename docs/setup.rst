@@ -26,7 +26,7 @@ The web-app can also be used to edit the list of access points, the keys, etc..
 
 Using the Web App
 -----------------
-The tracker can be configured using a `web-app <https://github.com/Hamlabs/ArcticTracker-Webapp>`_. It can discover and connect to trackers on the same LAN and it can connect to several trackers at the same time. The first time you connect to a tracker, start the webapp from the tracker itself: Point the browser to 'https://arctic-XXXX.local/' where XXXX is the callsign you gave the tracker. You can also see the hostname on the display or when using the 'wifi-info' command. 
+The tracker can be configured using a `web-app <https://github.com/Hamlabs/ArcticTracker-Webapp>`_. It can discover and connect to trackers on the same LAN and it can connect to several trackers at the same time. The first time you connect to a tracker, start the webapp from the tracker itself: Point the browser to 'https://arctic-XXXX.local/' where XXXX is the callsign you gave the tracker. If a callsign is not set, the id of the ESP32 chip will be used. You can also see the hostname on the display or when using the 'wifi-info' command. 
 
 The first time you are opening the webpage on the tracker this way, the browser will complain that its certificate cannot be verified. This is because it is a self-signed certificate and not signed by a known CA. If you feel confident that you are really connecting to your tracker you can add an exception to the browser to let it accept the webpage. Later connections to the same tracker will then work, even if the webapp is coming from somewhere else. 
 
@@ -36,11 +36,11 @@ If at least one tracker is connected it will automatically discover other tracke
 
 The web-app has a menu with 5 choices: 
 
-* Status - show info on tracker
-* Wifi - configure Wifi access points, Wifi Soft AP and keys. 
-* Aprs - Configure callsign, radio frequency, APRS confg like symbol, path, etc..
-* Digi/Igate - Digipeater and igate setup. 
-* TrkLog - Track logging setup. Automatic uploading of tracks to a Polaric Server instance.
+* *Status* - show info on tracker
+* *Wifi* - configure Wifi access points, Wifi Soft AP and keys. 
+* *Aprs* - Configure callsign, radio frequency, APRS confg like symbol, path, etc..
+* *Digi/Igate* - Digipeater and igate setup. 
+* *TrkLog* - Track logging setup. Automatic uploading of tracks to a Polaric Server instance.
 
 In addition you can select and set up connections to trackers. 
 
