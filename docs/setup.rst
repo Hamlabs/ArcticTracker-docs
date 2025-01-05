@@ -30,7 +30,7 @@ The tracker can be configured using a `web-app <https://github.com/Hamlabs/Arcti
 
 The first time you are opening the webpage on the tracker this way, the browser will complain that its certificate cannot be verified. This is because it is a self-signed certificate and not signed by a known CA. If you feel confident that you are really connecting to your tracker you can add an exception to the browser to let it accept the webpage. Later connections to the same tracker will then work, even if the webapp is coming from somewhere else. 
 
-Now, add the tracker. Click on the lock-icon and fill inn the callsign field and click 'add'. Now, the callsign should appear in a little box on the screen. The first time you access the tracker you also need to add the API-key. This key can be set in the command-shell ('api-key' command) or in the web-app itself. By default it is '123456789'. Please change it at your first convenience. If the correct key is set and we have connected sucessfully to the tracker, the box with the callsign will turn green. 
+Now, add the tracker. Click on the lock-icon and fill inn the callsign field and click 'add'. Now, the callsign should appear in a little box on the screen. The first time you access the tracker you also need to add the API-key. On the tracker, this key can be set in the command-shell ('api-key' command) or in the web-app itself. By default it is '123456789'. Please change it at your first convenience. If the correct key is set and we have connected sucessfully to the tracker, the box with the callsign will turn green. 
 
 If at least one tracker is connected it will automatically discover other trackers on the LAN (using mDNS). To connect to them, click the callsign-box and (if not added earlier) add the API-key. 
 
