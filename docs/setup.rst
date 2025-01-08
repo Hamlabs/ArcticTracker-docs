@@ -34,7 +34,7 @@ Now, add the tracker. Click on the lock-icon and fill inn the callsign field and
 
 If at least one tracker is connected it will automatically discover other trackers on the LAN (using mDNS). To connect to them, click the callsign-box and (if not added earlier) add the API-key. 
 
-The web-app has a menu with 5 choices: 
+The web-app has a menu line with 5 choices: 
 
 * *Status* - show info on tracker
 * *Wifi* - configure Wifi access points, Wifi Soft AP and keys. 
@@ -45,10 +45,12 @@ The web-app has a menu with 5 choices:
 In addition you can select and set up connections to trackers. 
 
 
-
-
 Using the Soft AP
 -----------------
+The tracker can also be used as a Wifi access point so that you can connect the web-app to it. It is not activated by default. To activate it use the display menu to just turn it on or use the command::
 
+ softap on
+
+The display ("W-AP" screen) will show information: The SSID of the AP. the IP-address of the tracker. Connect your smartphone or laptop to that SSID. You may now point your browser to the shown IP or the hostname (shown in the "WIFI" screen). The information can also be shown by using the wifi-info command Use the procedure described above to connect and configure the tracker. If you are using the smartphone app (soon to be announced) it will discover the tracker automatically. You may have to add the API-key if not done before. 
 
 
