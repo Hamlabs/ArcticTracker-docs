@@ -59,7 +59,7 @@ Basic operation and display
 ---------------------------
 The Arctic Tracker has two pushbuttons: One on the bottom to turn it on and off. Press and hold to turn it on or off. The other on the top to operate it. A led gives some indication. Red when it transmits. Blinking green otherwise. Short blinks when GNSS has a fix. Long blinking when not. On the T-TWR it is a little different since there are more buttons (including a rotating knob that can be used to cycle between screens or menu-items) and leds with multiple colours. I guess.. 
 
-The display gives more information and has 9 screens that you can cycle between them using the pushbutton on the top. On the top of the screen there is a line with a battery indicator on the right side and the name of the screen on the left side. There can be single-letter indications in between: 
+The display gives more information and has 10 screens that you can cycle between them using the pushbutton on the top. On the top of the screen there is a line with a battery indicator on the right side and the name of the screen on the left side. There can be single-letter indications in between: 
 
 * *i* - WIFI and internet connection is active
 * *g* - Igate is active 
