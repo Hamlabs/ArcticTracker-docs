@@ -69,13 +69,13 @@ The display gives more information and has 10 screens that you can cycle between
 
 The 9 screens are (in addition to the welcome screen)
 
-* 'APRS' - Callsign and frequency, APRS path and number of pos reports sent
-* 'RXTX' - Radio information: RX signal level, etc. The LoRA version shows the SF and CR as well as info about the last received packet. 
-* 'TIME' - Current date and time. Set by info from the GNSS or NTP (internet). Can show local time if timezone is set. UTC by default
-* 'GNSS' - Shows position coordinates if fix. 
-* 'WIFI' - Shows if Wifi is connected, SSID of the AP and what IP-address and hostname. 
-* 'W-AP' - Shows info about the soft-AP (the tracker can be an access point). SSID, IP-address and number of connected clients. 
-* 'BATT' - Battery status. Info about charging. 
-* 'SYST' - System information, firmware version
-* 'TRKL' - Track log info. Number of stored reports and posted reports if enabled. 
+* ``APRS`` - Callsign and frequency, APRS path and number of pos reports sent
+* ``RXTX`` - Radio information: RX signal level, etc. The LoRA version shows the SF and CR as well as info about the last received packet. 
+* ``TIME`` - Current date and time. Set by info from the GNSS or NTP (internet). Can show local time if timezone is set. UTC by default
+* ``GNSS`` - Shows position coordinates if fix. 
+* ``WIFI`` - Shows if Wifi is connected, SSID of the AP and what IP-address and hostname. 
+* ``W-AP`` - Shows info about the soft-AP (the tracker can be an access point). SSID, IP-address and number of connected clients. 
+* ``BATT`` - Battery status. Info about charging. 
+* ``SYST`` - System information, firmware version
+* ``TRKL`` - Track log info. Number of stored reports and posted reports if enabled. 
 
