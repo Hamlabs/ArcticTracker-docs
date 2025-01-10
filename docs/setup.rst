@@ -55,4 +55,26 @@ The tracker can also be used as a Wifi access point so that you can connect the 
 
 The display ("W-AP" screen) will show information: The SSID of the AP. the IP-address of the tracker. Connect your smartphone or laptop to that SSID. You may now point your browser to the shown IP or the hostname (shown in the "WIFI" screen). The information can also be shown by using the wifi-info command Use the procedure described above to connect and configure the tracker. If you are using the smartphone app (soon to be announced) it will discover the tracker automatically. You may have to add the API-key if not done before. 
 
+Basic operation and display
+---------------------------
+The Arctic Tracker has two pushbuttons: One on the bottom to turn it on and off. Press and hold to turn it on or off. The other on the top to operate it. A led gives some indication. Red when it transmits. Blinking green otherwise. Short blinks when GNSS has a fix. Long blinking when not. On the T-TWR it is a little different since there are more buttons (including a rotating knob that can be used to cycle between screens or menu-items) and leds with multiple colours. I guess.. 
+
+The display gives more information and has 9 screens that you can cycle between them using the pushbutton on the top. On the top of the screen there is a line with a battery indicator on the right side and the name of the screen on the left side. There can be single-letter indications in between: 
+
+* *i* - WIFI and internet connection is active
+* *g* - Igate is active 
+* *d* - Digipeater is active
+* *p* - USB-C is connected with charging or external power supply
+* *F* - GNSS Fix on position
+
+The 9 screens are (in addition to the welcome screen): 
+* 'APRS' - Callsign and frequency, APRS path and number of pos reports sent
+* 'RXTX' - Radio information: RX signal level, etc. The LoRA version shows the SF and CR as well as info about the last received packet. 
+* 'TIME' - Current date and time. Set by info from the GNSS or NTP (internet). Can show local time if configured for that. UTC by default
+* 'GNSS' - Shows position coordinates if fix. 
+* 'WIFI' - Shows if Wifi is connected, SSID of the AP and what IP-address and hostname. 
+* 'W-AP' - Shows info about the soft-AP (the tracker can be an access point). SSID, IP-address and number of connected clients. 
+* 'BATT' - Battery status. Info about charging. 
+* 'SYST' - System information, firmware version
+* 'TRKL' - Track log info. Number of stored reports and posted reports if enabled. 
 
