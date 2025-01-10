@@ -33,8 +33,7 @@ The first time you are opening the webpage on the tracker this way, the browser 
 Now, add the tracker. Click on the lock-icon and fill inn the callsign field and click 'add'. Now, the callsign should appear in a little box on the screen. The first time you access the tracker you also need to add the API-key. On the tracker, this key can be set in the command-shell ('api-key' command) or in the web-app itself. By default it is '123456789'. Please change it at your first convenience. If the correct key is set and we have connected sucessfully to the tracker, the box with the callsign will turn green. 
 
 .. note::
-
-If the callsign-box does not turn green there may be two reasons: 1: The API key entered is wrong (then it normally turns red instead) or 2: The self-signed SSL-certificate is not known to the browser yet (see above).
+  If the callsign-box does not turn green there may be two reasons: 1: The API key entered is wrong (then it normally turns red instead) or 2: The self-signed SSL-certificate is not known to the browser yet (see above).
 
 If at least one tracker is connected it will automatically discover other trackers on the LAN (using mDNS). To connect to them, click the callsign-box and (if not added earlier) add the API-key. 
 
