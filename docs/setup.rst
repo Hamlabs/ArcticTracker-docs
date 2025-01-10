@@ -84,3 +84,22 @@ The 9 screens are (in addition to the welcome screen):
  ``SYST``      System information, firmware version
  ``TRKL``      Track log info. Number of stored reports and posted reports if enabled. 
 ============= ==========================================================================================
+
+
+Display menu
+~~~~~~~~~~~~
+
+Press and hold the button in about one second to activate a menu on the display. You can select one of the items by pushing briefly on the button (or use the rotary knob on the T-TWR) until the desired item is selected and then push and hold it for about one second to confirm. The menu has the following items: 
+
+* Send position report (if GNSS fix)
+* Restart.. Reboot the device
+* Soft Ap On|Off
+* Wifi On|Off
+* Igate On|Off
+* Digipeater On|Off
+* Track logging On|Off
+* Firmware upgrade
+
+The On|Off settings shows On or Off depending on the setting. If it is already is off, the menu will show "On" (to turn it on). The menu popup will go away when you have cycled through all items. 
+
+
