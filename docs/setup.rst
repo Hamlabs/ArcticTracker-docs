@@ -100,6 +100,6 @@ Press and hold the button in about one second to activate a menu on the display.
 * Track logging On|Off
 * Firmware upgrade
 
-The On|Off settings shows On or Off depending on the setting. If it is already is off, the menu will show "On" (to turn it on). The menu popup will go away when you have cycled through all items. 
+The On|Off settings shows On or Off depending on the setting. If it is already is off, the menu will show "On" (to turn it on). The menu popup will go away when you have cycled through all items. It is of course a good idea to be sure things are configured correctly, using the webapp or the command-shell, before trying to turn them on with this menu. 
 
 
