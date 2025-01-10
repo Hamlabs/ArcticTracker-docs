@@ -67,7 +67,8 @@ The display gives more information and has 9 screens that you can cycle between 
 * *p* - USB-C is connected with charging or external power supply
 * *F* - GNSS Fix on position
 
-The 9 screens are (in addition to the welcome screen): 
+The 9 screens are (in addition to the welcome screen)
+
 * 'APRS' - Callsign and frequency, APRS path and number of pos reports sent
 * 'RXTX' - Radio information: RX signal level, etc. The LoRA version shows the SF and CR as well as info about the last received packet. 
 * 'TIME' - Current date and time. Set by info from the GNSS or NTP (internet). Can show local time if configured for that. UTC by default
