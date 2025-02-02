@@ -28,7 +28,7 @@ System commands
     Remove file
 **read** <file>
     Read content from file
-**sysinfo**
+**sysinfo**.
     Show system information. 
 **restart** 
     Restart the system
@@ -39,11 +39,11 @@ System commands
 **timezone** <tz-string>
     Set timezone. Use tz-string format to specify timezone information. 
 **vbatt**
-    Show battery status and voltage
+    Show battery status and voltage.
 **write** <file>
     Write content to file
 **rssi**
-    Show signal strength. 
+    Show signal strength on radio receiver. 
 
 
 
@@ -53,15 +53,15 @@ Networking commands
 **ap** [<index> <ssid> [<password>]]
     List or change AP alternatives. Up to 6 alternatives can be specified (index 1-6). 
 **ap-auth** [<password>]
-    WIFI SoftAP password
+    WIFI SoftAP password.
 **ap-ip** [<ip>]
-    WIFI SoftAP IP address
+    WIFI SoftAP IP address. Default is 192.168.0.1. 
 **ap-ssid** [<ssid>]
-    WIFI SoftAP SSID setting
+    WIFI SoftAP SSID setting. Default is 'Arctic_XXXX' where XXXX is mycall. Should work in most cases.
 **ap-sta**
     Show WIFI SoftAP connected stations
 **api-key** [<key>]
-    REST API secret key
+    REST API secret key. 
 **api-origins** [<regex>]
     Allowed origins for REST API webclients. Default is to allow all.
 **connect** <host> <port>
@@ -84,69 +84,68 @@ Networking commands
 
 APRS tracking commands
 ----------------------
-**altitude**
-    Altitude setting [on|off]
-**comment**
-    APRS posreport comment [<text>]
-**compress**
-    Compress setting [on|off]
-**digi**
-    Digipeater setting [on|off]
-**digipath**
-    APRS Digipeater path [<addr>, ...]
-**digi-wide1**
-    Digipeater fill-in mode (WIDE1) [on|off]
-**digi-sar**
-    Digipeater preemption on 'SAR' [on|off]
-**extraturn**
-    Send extra posreport when changing direction [on|off]
-**igate**
-    Igate setting [on|off]
-**igate-host**
-    Igate server host [<hostname>]
-**igate-port**
-    Igate server port [<portnr>]
-**igate-user**
-    Igate server user [<callsign>]
-**igate-pass**
-    Igate server passcode [<code>]
-**igtrack**
-    Send posreports directly to APRS/IS when available [on|off] 
+**altitude** [on|off]
+    Altitude setting 
+**comment**  [<text>]
+    APRS posreport comment
+**compress** [on|off]
+    Compress setting 
+**digi**  [on|off]
+    Digipeater setting
+**digipath**  [<addr>, ...]
+    APRS Digipeater path
+**digi-wide1** [on|off]
+    Digipeater fill-in mode (WIDE1)
+**digi-sar**  [on|off]
+    Digipeater preemption on 'SAR'
+**extraturn**  [on|off]
+    Send extra posreport when changing direction
+**igate** [on|off]
+    Igate setting 
+**igate-host** [<hostname>]
+    Igate server host
+**igate-port**  [<portnr>]
+    Igate server port
+**igate-user**  [<callsign>]
+    Igate server user
+**igate-pass** [<code>]
+    Igate server passcode 
+**igtrack** [on|off]
+    Send posreports directly to APRS/IS when available  
 **listen**
     Monitor radio channel for incoming APRS packets
-**maxframe**
-    APRS max frames in a transmission [<val>]
-**maxpause**
-    Tracking max pause (10 sec units) [<val>]
-**minpause**
-    Tracking min pause (10 sec units) [<val>]
-**mindist**
-    Tracking min distance (meters) [<val>]
-**mycall**
-    My callsign [<callsign>]
-**osymbol**
-    APRS symbol for objects (sym-table symbol) [<T><S>]
-**objectid**
-    ID prefix for object reports <str>
-**repeat**
-    # Times to repeat posreports (0-3) [val]
-**reportbeep**
-    Beep when report is sent [on|off]
-**statustime**
-    Status report time (10 sec units) [<val>]
-**symbol**
-    APRS symbol (sym-table symbol) [<T><S>]
+**maxframe** [<val>]
+    APRS max frames in a transmission 
+**maxpause** [<val>]
+    Tracking max pause (10 sec units) 
+**minpause** [<val>]
+    Tracking min pause (10 sec units) 
+**mindist** [<val>]
+    Tracking min distance (meters) 
+**mycall** [<callsign>]
+    My callsign 
+**osymbol** [<T><S>]
+    APRS symbol for objects (sym-table symbol) 
+**objectid** <str>
+    ID prefix for object reports 
+**repeat**  [val]
+    # Times to repeat posreports (0-3)
+**reportbeep** [on|off] 
+    Beep when report is sent 
+**statustime** [<val>]
+    Status report time (10 sec units)
+**symbol** [<T><S>]
+    APRS symbol (sym-table symbol) 
 **testpacket**
     Send test APRS packet (for testing/development)
-**timestamp**
-    Timestamp setting [on|off]
-**tracker**
-    APRS tracker setting [on|off]
-
-**turnlimit**
-    Threshold for change of direction [<val>]
-**txmon**
-    Tx monitor (show TX packets) [on|off]
+**timestamp** [on|off]
+    Timestamp setting 
+**tracker**  [on|off]
+    APRS tracker setting
+**turnlimit** [<val>]
+    Threshold for change of direction 
+**txmon** [on|off]
+    Tx monitor (show TX packets) 
 
 Track logging commands
 ----------------------
