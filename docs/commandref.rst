@@ -1,5 +1,6 @@
 Command Reference
 =================
+This is a complete list of the commands that are available in the command-shell (console). Many of them are setting. The most important settings can also be accessed through the REST-API (Web application). 
 
 System commands
 ---------------
