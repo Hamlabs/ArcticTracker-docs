@@ -142,6 +142,16 @@ APRS tracking commands
     Timestamp setting [on|off]
 **tracker**
     APRS tracker setting [on|off]
+
+**turnlimit**
+    Threshold for change of direction [<val>]
+**txmon**
+    Tx monitor (show TX packets) [on|off]
+
+Track logging commands
+----------------------
+The tracker can store position-reports in the file-system and upload them to a Polaric Server instance when internet is in range. Commands related to track-logging are: 
+
 **tracklog**
     Track logging [on|off]
 **trklog-get**
@@ -158,10 +168,6 @@ APRS tracking commands
     KEY for authenticating tracklog-messages to Polaric Server [<key>]
 **trklog-url**
     URL for posting tracklog updates to Polaric Server [<url>]
-**turnlimit**
-    Threshold for change of direction [<val>]
-**txmon**
-    Tx monitor (show TX packets) [on|off]
 
 
 
