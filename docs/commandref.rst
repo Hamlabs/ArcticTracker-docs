@@ -103,15 +103,15 @@ APRS tracking commands
 **igate** [on|off]
     Igate setting 
 **igate-host** [<hostname>]
-    Igate server host
+    Igate server host to connect to
 **igate-port**  [<portnr>]
-    Igate server port
+    Igate server port to connect to
 **igate-user**  [<callsign>]
-    Igate server user
+    Igate server logon user
 **igate-pass** [<code>]
-    Igate server passcode 
+    Igate server logon passcode 
 **igtrack** [on|off]
-    Send posreports directly to APRS/IS when available  
+    Send posreports (from tracker) directly to APRS/IS when available  
 **listen**
     Monitor radio channel for incoming APRS packets
 **maxframe** [<val>]
@@ -145,70 +145,73 @@ APRS tracking commands
 **turnlimit** [<val>]
     Threshold for change of direction 
 **txmon** [on|off]
-    Tx monitor (show TX packets) 
+    Tx monitor (show own TX packets on console in listen mode) 
 
 Track logging commands
 ----------------------
 The tracker can store position-reports in the file-system and upload them to a Polaric Server instance when internet is in range. Commands related to track-logging are: 
 
-**tracklog**
-    Track logging [on|off]
+**tracklog** [on|off]
+    Track logging 
 **trklog-get**
     Get tracklog record (for testing/development)
 **trklog-put**
     Put tracklog record (for testing/development)
-**trklog-int**
-     Interval for track logging (seconds) [<val>]
-**trklog-post**
-    Track log automatic post to server [on|off]
-**trklog-ttl**
-     Max time to keep tracklog entries (hours) [<val>]
-**trklog-key**
-    KEY for authenticating tracklog-messages to Polaric Server [<key>]
-**trklog-url**
-    URL for posting tracklog updates to Polaric Server [<url>]
+**trklog-int** [<val>]
+     Interval for track logging (seconds) 
+**trklog-post** [on|off]
+    Track log automatic post to server 
+**trklog-ttl** [<val>]
+     Max time to keep tracklog entries (hours) 
+**trklog-key** [<key>]
+    KEY for authenticating tracklog-messages to Polaric Server 
+**trklog-url** [<url>]
+    URL for posting tracklog updates to Polaric Server 
 
 
 
 AFSK APRS radio commands
 ------------------------
+These commands are only valid on trackers with VHF AFSK trackers (Arctic Tracker 4 VHF or Lilygo T-TWR Plus)
 
 **ptt**
     Transmitter on
-**radio**
-     Radio module power [on|off]
-**rxfreq**
-    RX frequency (100 Hz units) [<val>]
-**softsq**
-    Soft Squelch setting [<val>]
-**squelch**
-    Squelch setting (1-8) [<val>]
-**teston**
-    HDLC encoder test <byte> 
+**radio** [on|off]
+     Radio module power
+**rxfreq**  [<val>]
+    RX frequency (100 Hz units)
+**softsq**  [<val>]
+    Soft Squelch setting
+**squelch**  [<val>]
+    Squelch setting (1-8)
+**teston** <byte> 
+    HDLC encoder test 
 **tone**
     Tone generator test. Use space to cycle between 1200 and 2200 Hz
-**txdelay**
-    APRS TXDELAY setting [<val>]
-**txfreq**
-    TX frequency (100 Hz units) [<val>]
-**txlow**
-    Tx power low [on|off]
-**txtail**
-    APRS TXTAIL setting [<val>]
-**volume**
-    RX audio level setting (1-8) [<val>]
+**txdelay** [<val>]
+    APRS TXDELAY setting 
+**txfreq** [<val>]
+    TX frequency (100 Hz units) 
+**txlow** [on|off]
+    Tx power low 
+**txtail**  [<val>]
+    APRS TXTAIL setting
+**volume** [<val>]
+    RX audio level setting (1-8) 
 
 
 LoRa APRS radio commands
 ------------------------
-**freq**
-    TX/RX frequency (Hz) [<val>]
+These commands are only valid on trackers with LoRa APRS (Arctic Tracker 4 UHF)
+
+**freq** [<val>]
+    TX/RX frequency (Hz) 
 **heard**
      Last heard packet
-**lora-cr**
-    LoRa coding rate (5-8) [<val>]
-**lora-sf**
-    LoRa spreading factor (7-12) [<val>]
-**txpower**
-    Tx power (1-6) [<val>]
+**lora-cr** [<val>]
+    LoRa coding rate (5-8) 
+**lora-sf** [<val>]
+    LoRa spreading factor (7-12) 
+**txpower** [<val>]
+    Tx power (1-6)
 
