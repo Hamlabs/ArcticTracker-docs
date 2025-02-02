@@ -3,135 +3,97 @@ Command Reference
 
 System commands
 ---------------
-
-**trk-reset** 
-    Reset track storage
-
-**ls**
-    List files in filesystem
-
-**mkdir** <path>
-     Create a new directory
-
-**rm** <file>
-    Remove file
-
 **cd** <directory>
     Change working directory
-
 **format** 
     Reformat file system. 
-
-**write** <file>
-    Write content to file
-
-**read** <file>
-    Read content from file
-
 **free**
     Show amount of free memory (in bytes)
-
-**sysinfo**
-    Show system information. 
-
-**restart** 
-    Restart the system
-
-**tasks**
-    Show list of tasks running in system (threads/processes)
-
+**fw-uprade**
+    OTA Firmware upgrade
+**ioconfig** <gpio-num>
+    Show info on GPIO configuration (for developing/debugging)
+**trk-reset** 
+    Reset track storage
+**ls**
+    List files in filesystem
 **log** <tag> | * [<level>]
     Set loglevel (for debugging/testing)
-
-**time**
-    Show time (UTC and local-time if timezone is set)
-
-**timezone** <tz-string>
-    Set timezone. Use tz-string format to specify timezone information. 
-
+**mkdir** <path>
+     Create a new directory
 **nmea** [raw]
     Show NMEA data stream from GNSS. Use 'raw' switch to indicate that all data is to be shown. Otherwise only 
     fixed data will be shown. 
-
+**rm** <file>
+    Remove file
+**read** <file>
+    Read content from file
+**sysinfo**
+    Show system information. 
+**restart** 
+    Restart the system
+**tasks**
+    Show list of tasks running in system (threads/processes)
+**time**
+    Show time (UTC and local-time if timezone is set)
+**timezone** <tz-string>
+    Set timezone. Use tz-string format to specify timezone information. 
 **vbatt**
     Show battery status and voltage
-
-**ioconfig** <gpio-num>
-    Show info on GPIO configuration (for developing/debugging)
-
-**fw-uprade**
-    OTA Firmware upgrade
-
+**write** <file>
+    Write content to file
 **rssi**
     Show signal strength. 
 
-**tone**
-    Tone generator test. 
 
-**ptt**
-    Transmitter on
 
 Networking commands
 -------------------
-**mdns**  <type>
-    Scan for MDNS services
-
-**wifi-scan**
-    Scan for access points
-
-**wifi-info**
-    Info about Wifi connection
-
-**wifi** [on|off]
-    Wifi on/off setting
-
-**softap** [on|off]
-    Wifi softap on/off setting
 
 **ap** [<index> <ssid> [<password>]]
     List or change AP alternatives. Up to 6 alternatives can be specified (index 1-6). 
-
-**ap-ssid** [<ssid>]
-    WIFI SoftAP SSID setting
-
 **ap-auth** [<password>]
     WIFI SoftAP password
-
 **ap-ip** [<ip>]
     WIFI SoftAP IP address
-
+**ap-ssid** [<ssid>]
+    WIFI SoftAP SSID setting
 **ap-sta**
     Show WIFI SoftAP connected stations
-
 **api-key** [<key>]
     REST API secret key
-
 **api-origins** [<regex>]
     Allowed origins for REST API webclients. Default is to allow all.
-
-**fw-url** [<url>]
-    URL for OTA firmware update
-
-**fw-cert**
-    Certificate for firmware update. Use only if you use a self-signed certificate
-
 **connect** <host> <port>
     Connect to internet server (like telnet). Use for testing/debugging.
+**fw-cert**
+    Certificate for firmware update. Use only if you use a self-signed certificate
+**fw-url** [<url>]
+    URL for OTA firmware update
+**mdns**  <type>
+    Scan for MDNS services
+**softap** [on|off]
+    Wifi softap on/off setting
+**wifi** [on|off]
+    Wifi on/off setting
+**wifi-info**
+    Info about Wifi connection
+**wifi-scan**
+    Scan for access points
 
 
-APRS and radio commands
------------------------
-
-**listen**
-    Monitor radio channel
-**trklog-get**
-    Get tracklog record
-**trklog-put**
-    Put tracklog record
+APRS tracking commands
+----------------------
 **mycall**
     My callsign [<callsign>]
 **digipath**
     APRS Digipeater path [<addr>, ...]
+**listen**
+    Monitor radio channel for incoming APRS packets
+**trklog-get**
+    Get tracklog record
+**trklog-put**
+    Put tracklog record
 **symbol**
     APRS symbol (sym-table symbol) [<T><S>]
 **osymbol**
@@ -188,8 +150,7 @@ APRS and radio commands
     Track logging [on|off]
 **trklog-post**
     Track log automatic post to server [on|off]
-**radio**
-     Radio module power [on|off]
+
 **tracker**
     APRS tracker setting [on|off]
 **reportbeep**
@@ -203,32 +164,46 @@ APRS and radio commands
 **testpacket**
     Send test APRS packet
 
-**teston**
-    HDLC encoder test <byte> 
-**txdelay**
-    APRS TXDELAY setting [<val>]
-**txtail**
-    APRS TXTAIL setting [<val>]
-**squelch**
-    Squelch setting (1-8) [<val>]
-**softsq**
-    Soft Squelch setting [<val>]
-**volume**
-    RX audio level setting (1-8) [<val>]
-**txlow**
-    Tx power low [on|off]
-**txfreq**
-    TX frequency (100 Hz units) [<val>]
+
+AFSK APRS radio commands
+------------------------
+
+**ptt**
+    Transmitter on
+**radio**
+     Radio module power [on|off]
 **rxfreq**
     RX frequency (100 Hz units) [<val>]
+**softsq**
+    Soft Squelch setting [<val>]
+**squelch**
+    Squelch setting (1-8) [<val>]
+**teston**
+    HDLC encoder test <byte> 
+**tone**
+    Tone generator test. Use space to cycle between 1200 and 2200 Hz
+**txdelay**
+    APRS TXDELAY setting [<val>]
+**txfreq**
+    TX frequency (100 Hz units) [<val>]
+**txlow**
+    Tx power low [on|off]
+**txtail**
+    APRS TXTAIL setting [<val>]
+**volume**
+    RX audio level setting (1-8) [<val>]
 
-**lora-sf**
-    LoRa spreading factor (7-12) [<val>]
-**lora-cr**
-    LoRa coding rate (5-8) [<val>]
-**txpower**
-    Tx power (1-6) [<val>]
+
+LoRa APRS radio commands
+------------------------
 **freq**
     TX/RX frequency (Hz) [<val>]
 **heard**
      Last heard packet
+**lora-cr**
+    LoRa coding rate (5-8) [<val>]
+**lora-sf**
+    LoRa spreading factor (7-12) [<val>]
+**txpower**
+    Tx power (1-6) [<val>]
+
