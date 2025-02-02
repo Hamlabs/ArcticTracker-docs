@@ -35,3 +35,4 @@ Contents
 
    hardware
    gettingstarted
+   commandref
