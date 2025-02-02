@@ -88,13 +88,13 @@ APRS tracking commands
 **altitude** [on|off]
     Altitude setting 
 **comment**  [<text>]
-    APRS posreport comment
+    APRS posreport comment. Default "Arctic Tracker"
 **compress** [on|off]
     Compress setting 
 **digi**  [on|off]
     Digipeater setting
 **digipath**  [<addr>, ...]
-    APRS Digipeater path
+    APRS Digipeater path. Default "WIDE1-1"
 **digi-wide1** [on|off]
     Digipeater fill-in mode (WIDE1)
 **digi-sar**  [on|off]
@@ -104,29 +104,27 @@ APRS tracking commands
 **igate** [on|off]
     Igate setting 
 **igate-host** [<hostname>]
-    Igate server host to connect to
+    Igate server host to connect to. Default "aprs.no"
 **igate-port**  [<portnr>]
-    Igate server port to connect to
+    Igate server port to connect to. Default 14580.
 **igate-user**  [<callsign>]
-    Igate server logon user
+    Igate server logon user. Default "NOCALL".
 **igate-pass** [<code>]
     Igate server logon passcode 
 **igtrack** [on|off]
     Send posreports (from tracker) directly to APRS/IS when available  
 **listen**
     Monitor radio channel for incoming APRS packets
-**maxframe** [<val>]
-    APRS max frames in a transmission 
 **maxpause** [<val>]
-    Tracking max pause (10 sec units) 
+    Tracking max pause (seconds). Default 120. 
 **minpause** [<val>]
-    Tracking min pause (10 sec units) 
+    Tracking min pause (seconds). Default 20. 
 **mindist** [<val>]
-    Tracking min distance (meters) 
+    Tracking min distance (meters). Default 100. 
 **mycall** [<callsign>]
-    My callsign 
+    My callsign. Default "NOCALL". 
 **osymbol** [<T><S>]
-    APRS symbol for objects (sym-table symbol) 
+    APRS symbol for objects (sym-table symbol). Default: "/[" (running person) 
 **objectid** <str>
     ID prefix for object reports 
 **repeat**  [val]
@@ -136,7 +134,7 @@ APRS tracking commands
 **statustime** [<val>]
     Status report time (10 sec units)
 **symbol** [<T><S>]
-    APRS symbol (sym-table symbol) 
+    APRS symbol (sym-table symbol). Default: "/[" (running person) 
 **testpacket**
     Send test APRS packet (for testing/development)
 **timestamp** [on|off]
@@ -144,7 +142,7 @@ APRS tracking commands
 **tracker**  [on|off]
     APRS tracker setting
 **turnlimit** [<val>]
-    Threshold for change of direction 
+    Threshold for change of direction (degrees). Default 35.
 **txmon** [on|off]
     Tx monitor (show own TX packets on console in listen mode) 
 
@@ -159,11 +157,11 @@ The tracker can store position-reports in the file-system and upload them to a P
 **trklog-put**
     Put tracklog record (for testing/development)
 **trklog-int** [<val>]
-     Interval for track logging (seconds) 
+     Interval for track logging (seconds). Default 5.
 **trklog-post** [on|off]
     Track log automatic post to server 
 **trklog-ttl** [<val>]
-     Max time to keep tracklog entries (hours) 
+     Max time to keep tracklog entries (hours). Default 24. 
 **trklog-key** [<key>]
     KEY for authenticating tracklog-messages to Polaric Server 
 **trklog-url** [<url>]
@@ -180,25 +178,25 @@ These commands are only valid on trackers with VHF AFSK trackers (Arctic Tracker
 **radio** [on|off]
      Radio module power
 **rxfreq**  [<val>]
-    RX frequency (100 Hz units)
+    RX frequency (100 Hz units). Default 1448000.
 **softsq**  [<val>]
-    Soft Squelch setting
+    Soft Squelch setting. Default 17 on T_TWR, 110 on other trackers. 
 **squelch**  [<val>]
-    Squelch setting (1-8)
+    Squelch setting (1-8). Default 1. 
 **teston** <byte> 
     HDLC encoder test 
 **tone**
     Tone generator test. Use space to cycle between 1200 and 2200 Hz
 **txdelay** [<val>]
-    APRS TXDELAY setting 
+    APRS TXDELAY setting. Default 10. 
 **txfreq** [<val>]
-    TX frequency (100 Hz units) 
+    TX frequency (100 Hz units). Default 1448000.
 **txlow** [on|off]
     Tx power low 
 **txtail**  [<val>]
-    APRS TXTAIL setting
+    APRS TXTAIL setting. Default 10.
 **volume** [<val>]
-    RX audio level setting (1-8) 
+    RX audio level setting (1-8). Default 6 on T_TWR, 7 otherwise.  
 
 
 LoRa APRS radio commands
@@ -206,13 +204,13 @@ LoRa APRS radio commands
 These commands are only valid on trackers with LoRa APRS (Arctic Tracker 4 UHF)
 
 **freq** [<val>]
-    TX/RX frequency (Hz) 
+    TX/RX frequency (Hz). Default 433775000. 
 **heard**
      Last heard packet
 **lora-cr** [<val>]
-    LoRa coding rate (5-8) 
+    LoRa coding rate (5-8). Default 5.  
 **lora-sf** [<val>]
-    LoRa spreading factor (7-12) 
+    LoRa spreading factor (7-12). Default 12.  
 **txpower** [<val>]
-    Tx power (1-6)
+    Tx power (1-6). Default 4 (500 mW)
 
