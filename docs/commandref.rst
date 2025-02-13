@@ -91,28 +91,8 @@ APRS tracking commands
     APRS posreport comment. Default "Arctic Tracker"
 **compress** [on|off]
     Compress setting 
-**digi**  [on|off]
-    Digipeater setting
-**digipath**  [<addr>, ...]
-    APRS Digipeater path. Default "WIDE1-1"
-**digi-wide1** [on|off]
-    Digipeater fill-in mode (WIDE1)
-**digi-sar**  [on|off]
-    Digipeater preemption on 'SAR'
 **extraturn**  [on|off]
     Send extra posreport when changing direction
-**igate** [on|off]
-    Igate setting 
-**igate-host** [<hostname>]
-    Igate server host to connect to. Default "aprs.no"
-**igate-port**  [<portnr>]
-    Igate server port to connect to. Default 14580.
-**igate-user**  [<callsign>]
-    Igate server logon user. Default "NOCALL".
-**igate-pass** [<code>]
-    Igate server logon passcode 
-**igtrack** [on|off]
-    Send posreports (from tracker) directly to APRS/IS when available  
 **listen**
     Monitor radio channel for incoming APRS packets
 **maxpause** [<val>]
@@ -145,6 +125,31 @@ APRS tracking commands
     Threshold for change of direction (degrees). Default 35.
 **txmon** [on|off]
     Tx monitor (show own TX packets on console in listen mode) 
+
+
+Igate and digipeater
+--------------------
+**digi**  [on|off]
+    Digipeater setting
+**digipath**  [<addr>, ...]
+    APRS Digipeater path. Default "WIDE1-1"
+**digi-wide1** [on|off]
+    Digipeater fill-in mode (WIDE1)
+**digi-sar**  [on|off]
+    Digipeater preemption on 'SAR'
+**igate** [on|off]
+    Igate setting 
+**igate-host** [<hostname>]
+    Igate server host to connect to. Default "aprs.no"
+**igate-port**  [<portnr>]
+    Igate server port to connect to. Default 14580.
+**igate-user**  [<callsign>]
+    Igate server logon user. Default "NOCALL".
+**igate-pass** [<code>]
+    Igate server logon passcode 
+**igtrack** [on|off]
+    Send posreports (from tracker) directly to APRS/IS when available  
+
 
 Track logging commands
 ----------------------
