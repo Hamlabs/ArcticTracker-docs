@@ -127,8 +127,8 @@ APRS tracking commands
     Tx monitor (show own TX packets on console in listen mode) 
 
 
-Igate and digipeater
---------------------
+Igate and digipeater commands
+-----------------------------
 **digi**  [on|off]
     Digipeater setting
 **digipath**  [<addr>, ...]
