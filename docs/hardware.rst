@@ -13,7 +13,7 @@ After the pandemic there was time for a `critical review <http://hamlabs.no/2022
 
 .. image:: img/20221219_135321.jpg
 
-See all `Hamlabs posts on Arctic Tracker here <https://web.archive.org/web/20240416112000/http://hamlabs.no/category/projects/at/>`_. 
+See all `Hamlabs posts on Arctic Tracker here <https://web.archive.org/web/20240416112000/http://hamlabs.no/category/projects/at/>`_ (via Wayback machine).
 
 Arctic Tracker 4 VHF
 --------------------
