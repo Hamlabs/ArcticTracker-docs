@@ -4,8 +4,6 @@ Welcome to Arctic Tracker documentation!
 
 Arctic Tracker is an APRS tracker platform based on the ESP32S3 MCU module, a GPS, a display and a VHF/UHF transceiver module. Hardware prototypes were created mainly as experimental prototypes to show how we can build a tracker using affordable modules. The Arctic Tracker is also a IoT device capable of using WIFI and the internet when this is available: For easy configuration, for pushing APRS data, etc. It can also function as a igate. 
 
-See http://www.hamlabs.no for some blogging about this project.
-
 Main features
 -------------
 
