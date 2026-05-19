@@ -73,6 +73,12 @@ Networking commands
     URL for OTA firmware update
 **mdns**  <type>
     Scan for MDNS services
+**netmon** [on|off]
+    Turn on telnet service for monitoring. If on You can connect the tracker to see received and sent packets. 
+**netmon-port <port>
+    Specify the port number for net-monitoring. Default: 23. 
+**newcert**
+    Generate new self-signed certificate (for REST API). Reboot tracker to activate it.
 **softap** [on|off]
     Wifi softap on/off setting
 **wifi** [on|off]
