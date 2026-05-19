@@ -60,7 +60,7 @@ Networking commands
 **ap-ssid** [<ssid>]
     WIFI SoftAP SSID setting. Default is 'Arctic_XXXX' where XXXX is mycall. Should work in most cases.
 **ap-sta**
-    Show WIFI SoftAP connected stations
+    Show WIFI SoftAP connected stations.
 **api-key** [<key>]
     REST API secret key. 
 **api-origins** [<regex>]
@@ -68,11 +68,11 @@ Networking commands
 **connect** <host> <port>
     Connect to internet server (like telnet). Use for testing/debugging.
 **fw-cert**
-    Certificate for firmware update. Use only if you use a self-signed certificate
+    Certificate for firmware update. Use only if a self-signed certificate is used.
 **fw-url** [<url>]
-    URL for OTA firmware update
+    URL for OTA firmware update.
 **mdns**  <type>
-    Scan for MDNS services
+    Scan for MDNS services.
 **netmon** [on|off]
     Turn on telnet service for monitoring. If on You can connect the tracker to see received and sent packets. 
 **netmon-port <port>
@@ -80,13 +80,13 @@ Networking commands
 **newcert**
     Generate new self-signed certificate (for REST API). Reboot tracker to activate it.
 **softap** [on|off]
-    Wifi softap on/off setting
+    Wifi softap on/off setting.
 **wifi** [on|off]
-    Wifi on/off setting
+    Wifi on/off setting.
 **wifi-info**
-    Info about Wifi connection
+    Info about Wifi connection.
 **wifi-scan**
-    Scan for access points
+    Scan for access points.
 
 
 APRS tracking commands
