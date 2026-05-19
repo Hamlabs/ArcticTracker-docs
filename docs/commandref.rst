@@ -71,11 +71,11 @@ Networking commands
     Certificate for firmware update. Use only if a self-signed certificate is used.
 **fw-url** [<url>]
     URL for OTA firmware update.
-**mdns**  <type>
+**mdns** <type>
     Scan for MDNS services.
 **netmon** [on|off]
     Turn on telnet service for monitoring. If on You can connect the tracker to see received and sent packets. 
-**netmon-port <port>
+**netmon-port** <port>
     Specify the port number for net-monitoring. Default: 23. 
 **newcert**
     Generate new self-signed certificate (for REST API). Reboot tracker to activate it.
