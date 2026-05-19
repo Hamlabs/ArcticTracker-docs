@@ -97,6 +97,10 @@ APRS tracking commands
     APRS posreport comment. Default "Arctic Tracker"
 **compress** [on|off]
     Compress setting 
+**crypto** [on|off]
+    Encrypt APRS packets. 
+**crypto-key** <key>
+    Secret (password/passphrase) used to generate a key for encryption.
 **extraturn**  [on|off]
     Send extra posreport when changing direction
 **listen**
@@ -216,6 +220,8 @@ These commands are only valid on trackers with LoRa APRS (Arctic Tracker 4 UHF)
 
 **freq** [<val>]
     TX/RX frequency (Hz). Default 433775000. 
+**freq-offset** [<val>]
+    Correction for TX/RX frequency (Hz). Default 0.
 **heard**
      Last heard packet
 **lora-cr** [<val>]
