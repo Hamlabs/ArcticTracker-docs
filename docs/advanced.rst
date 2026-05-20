@@ -28,4 +28,4 @@ To turn it off use::
 
    crypto off
 
-Crypto-key can also be set or crypto can be turned on in the web-interface.
+It is also possible to use the web-interface to control the use of encryption.
