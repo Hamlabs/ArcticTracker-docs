@@ -112,7 +112,7 @@ APRS tracking commands
 **mindist** [<val>]
     Tracking min distance (meters). Default 100. 
 **mycall** [<callsign>]
-    My callsign. Default "NOCALL". 
+    My callsign. Default "NOCALL". Setting the callsign will trigger the generation of a new security certificate. A reboot is recommended after using this command.
 **osymbol** [<T><S>]
     APRS symbol for objects (sym-table symbol). Default: "/[" (running person) 
 **objectid** <str>
