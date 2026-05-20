@@ -33,5 +33,5 @@ Contents
 
    hardware
    gettingstarted
-  
+   advanced
    commandref
