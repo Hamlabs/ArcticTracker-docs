@@ -50,11 +50,11 @@ The web-app has a menu line with 5 choices (in addition you can select and set u
 
 Using the Soft AP
 -----------------
-The tracker can also be used as a Wifi access point so that you can connect the web-app to it. It is not activated by default. To activate it use the display menu to just turn it on or use the command::
+The tracker can also be used as a Wifi access point so that you can connect the web-app to it. It is not activated by default. To activate it, use the display menu to just turn it on or use the command::
 
  softap on
 
-The display ("W-AP" screen) will show information: The SSID of the AP. the IP-address of the tracker. Connect your smartphone or laptop to that SSID. The password is by default '123456789'. Please change it at your first convenience. You may now point your browser to the shown IP or the hostname (shown in the "WIFI" screen). The information can also be shown by using the wifi-info command Use the procedure described above to connect and configure the tracker. If you are using the smartphone app (soon to be announced) it will discover the tracker automatically. You may have to add the API-key if not done before. 
+The display ("W-AP" screen) will show information: The SSID of the AP. the IP-address of the tracker. Connect your smartphone or laptop to that SSID. The password is by default '123456789'. Please change it at your first convenience. You may now point your browser to the shown IP or the hostname (shown in the "WIFI" screen). The information can also be shown by using the wifi-info command Use the procedure described above to connect and configure the tracker. If you are using the smartphone app, it will discover the tracker automatically. You may have to add the API-key if not done before. 
 
 Basic operation and display
 ---------------------------
