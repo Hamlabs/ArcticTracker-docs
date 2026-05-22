@@ -36,4 +36,9 @@ Track logging
 
 Arctic tracker can log positions in memory (e.g. every 10th second) and automatically upload this over the internet to a server (e.g. Polaric Server). The idea is that while the tracker sends updates over radio and this is shown on the map almost immediately, the tracks can be enhanced with more precise info when the tracker is in range of a Wifi network. 
 
+Track-log uploads uses a protocol similar to the REST API of the web-app. Data is JSON encoded when uploaded. It is necessary to set a key (for authentication) before using this feature. 
+In the web-app, track logging can be configured in the Misc tab. The following commands are related to track-logging: 
+
+tracklog, trk-reset, trklog-get, trklog-int, trklog-key, trklog-post, trklog-put, trklog-ttl and trklog-url
+
 (more info to come.. stay tuned..)
