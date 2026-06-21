@@ -20,6 +20,8 @@ System commands
     List files in filesystem
 **log** <tag> | * [<level>]
     Set loglevel (for debugging/testing)
+**maxcharge** <val>
+    Maximum charge level (where charger will turn off). Default 90. From v.1.1. 
 **mkdir** <path>
      Create a new directory
 **nmea** [raw]
@@ -74,11 +76,11 @@ Networking commands
 **mdns** <type>
     Scan for MDNS services.
 **netmon** [on|off]
-    Turn on telnet service for monitoring. If on You can connect the tracker to see received and sent packets. 
+    Turn on telnet service for monitoring. If on You can connect the tracker to see received and sent packets. From v.1.1. 
 **netmon-port** <port>
-    Specify the port number for net-monitoring. Default: 23. 
+    Specify the port number for net-monitoring. Default: 23. From v.1.1. 
 **newcert**
-    Generate new self-signed certificate (for REST API). Reboot tracker to activate it.
+    Generate new self-signed certificate (for REST API). Reboot tracker to activate it. From v.1.1. 
 **softap** [on|off]
     Wifi softap on/off setting.
 **wifi** [on|off]
@@ -144,7 +146,9 @@ Igate and digipeater commands
 **digipath**  [<addr>, ...]
     APRS Digipeater path. Default "WIDE1-1"
 **digi-wide1** [on|off]
-    Digipeater fill-in mode (WIDE1)
+    Digipeater fill-in mode (WIDE1-1). From v.1.1
+**digi-wide2** [on|off]
+    Digipeater up to two hops (WIDE2-2)
 **digi-sar**  [on|off]
     Digipeater preemption on 'SAR'
 **igate** [on|off]
@@ -218,10 +222,12 @@ LoRa APRS radio commands
 ------------------------
 These commands are only valid on trackers with LoRa APRS (Arctic Tracker 4 UHF)
 
+**digi-meta** [on|off]
+    Add metainformation to digipeated packet: RSSI and SNR. From v.1.1. 
 **freq** [<val>]
     TX/RX frequency (Hz). Default 433775000. 
 **freq-offset** [<val>]
-    Correction for TX/RX frequency (Hz). Default 0.
+    Correction for TX/RX frequency (Hz). Default 0. From v.1.1. 
 **heard**
      Last heard packet
 **lora-cr** [<val>]
