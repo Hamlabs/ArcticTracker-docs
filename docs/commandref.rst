@@ -12,6 +12,8 @@ System commands
     Show amount of free memory (in bytes)
 **fw-uprade**
     OTA Firmware upgrade
+**fw-url** <url>
+    Location of the OTA Firmware file (including the file name).  
 **ioconfig** <gpio-num>
     Show info on GPIO configuration (for developing/debugging)
 **trk-reset** 
