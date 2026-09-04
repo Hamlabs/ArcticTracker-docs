@@ -23,7 +23,7 @@ System commands
 **log** <tag> | * [<level>]
     Set loglevel (for debugging/testing)
 **maxcharge** <val>
-    Maximum charge level (where charger will turn off). Default 90. From v.1.1. 
+    Maximum charge level (where charger will turn off). Default 90. From v.4.1. 
 **mkdir** <path>
      Create a new directory
 **nmea** [raw]
@@ -69,6 +69,12 @@ Networking commands
     REST API secret key. 
 **api-origins** [<regex>]
     Allowed origins for REST API webclients. Default is to allow all.
+**cert-new**
+    Create new certificate for tracker. From v4.1. 
+**cert-sign**
+    Use CA to sign the certificate (if CA server is set). From v4.1. 
+**cert-url**
+    CA server URL. From v4.1.
 **connect** <host> <port>
     Connect to internet server (like telnet). Use for testing/debugging.
 **fw-cert**
