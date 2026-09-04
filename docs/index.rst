@@ -14,7 +14,7 @@ It is fairly complete now. The following features are implemented:
 * FAT filesystem. 
 * Internetworking using WIFI. Automatically connect to access points available. User can set up 
   an ordered list of APs to try. It can also function as its own access point.
-* Webserver/REST API.
+* Webserver/REST API. Secured using TLS, and HMAC based authentication.
 * OLED display, status screens and menu. Use button to operate.
 * Sending and receiving of APRS packets. Tracking, smart beaconing.
 * Digipeater and igate. 
