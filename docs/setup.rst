@@ -16,7 +16,7 @@ The ‘help‘ command gives you a list of available commands. ‘help <command>
 
 Setting your time zone
 ----------------------
-By default the tracker shows time in UTC. The time is set automatically by the GNSS or (if available) using SNTP on the internet. You can however set the timezone and then it will show local time. Use::
+The time is set automatically by the GNSS or (if available) using SNTP on the internet. By default the tracker shows time in UTC. You can however set the timezone and then it will show local time. Use::
 
   timezone <tz>
 
