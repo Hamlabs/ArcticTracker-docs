@@ -8,22 +8,25 @@ Main features
 -------------
 
 The firmware is implemented in C and based on the ESP-IDF which again is based on FreeRTOS. 
-It is fairly complete now. The following features are implemented:
+Many features are fairly complete now. The following features are implemented:
 
-* Command shell running on a serial port (USB). 
+* Command shell running on a serial port (USB). This allows settings of various parameters, using persistent storage (flash).
 * FAT filesystem. 
 * Internetworking using WIFI. Automatically connect to access points available. User can set up 
   an ordered list of APs to try. It can also function as its own access point.
-* Webserver/REST API. Secured using TLS, and HMAC based authentication.
+* Webserver/REST API. Secured using TLS and HMAC based authentication.
+* Interface with GPS for position and time. 
 * OLED display, status screens and menu. Use button to operate.
 * Sending and receiving of APRS packets. Tracking, smart beaconing.
-* Digipeater and igate. 
+* Encryption of APRS packets.
 * Add highly compressed earlier position reports to packets. This can improve trails significantly.
-  See `how this is done here <http://hamlabs.no/2020/11/02/improving-trails-with-arctic-tracker/>`_. 
-* Firmware upgrades over the air (OTA).
-* Basic information on battery and charging.
+  See `how this is done here <https://github.com/Hamlabs/ArcticTracker-ESP32>`_. 
+* Digipeater and igate.
+* Automatic management and information on battery and charging.
 * Track logging. Store positions in flash memory e.g. every 5 seconds and upload to a REST
   API on a Polaric Server when network is available. 
+* LoRa APRS (on supported hardware)
+* Firmware upgrades over the air (OTA)
 
 
 Contents
