@@ -20,7 +20,7 @@ The first time the tracker is used, you could use the 'ap' command to set the ac
 
   ap 1 <ssid> <key>
 
-Up to 6 alternative access-points can be given. First index is 1. The first one will be tried first, if that fails, it will try the next, etc. When you turn on the wifi it should try to connect to the access point. Use the 'wifi-info' to see if it succeeds to connect, what IP-address it gets, etc.. 
+Up to 6 alternative access-points can be given. First index is 1. The first one will be tried first, if that fails, it will try the next, etc. If all alternatives fail, the tracker will *suspend* the wifi for 5 minutes before it tries again. When you turn on the wifi it should try to connect to the access point. Use the 'wifi-info' to see if it succeeds to connect, what IP-address it gets, etc.. 
 
 The web-app can also be used to edit the list of access points, the keys, etc.. 
 
