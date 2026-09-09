@@ -20,7 +20,7 @@ Many features are fairly complete now. The following features are implemented:
 * Sending and receiving of APRS packets. Tracking, smart beaconing.
 * Encryption of APRS packets.
 * Add highly compressed earlier position reports to packets. This can improve trails significantly.
-  See `how this is done here <https://github.com/Hamlabs/ArcticTracker-ESP32>`_. 
+  See `how this is done here <http://idl.iscram.org/files/oyvindhanssen/2021/2350_OyvindHanssen2021.pdf>`_. 
 * Digipeater and igate.
 * Automatic management and information on battery and charging.
 * Track logging. Store positions in flash memory e.g. every 5 seconds and upload to a REST
