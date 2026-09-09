@@ -16,11 +16,11 @@ The ‘help‘ command gives you a list of available commands. ‘help <command>
 
 Setting your time zone
 ----------------------
-By default the tracker shows time in UTC. You can however set the timezone and then it will show local time. Use::
+By default the tracker shows time in UTC. The time is set automatically by the GNSS or (if available) using SNTP on the internet. You can however set the timezone and then it will show local time. Use::
 
   timezone <tz>
 
-Where tz is a POSIX timezone string. For example Central Europe is: *"CEST-1CET,M3.2.0/2:00:00,M11.1.0/2:00:00"*, New York is: *"EST5EDT,M3.2.0/2:00:00,M11.1.0/2:00:00"*. China is simply *"CST-8"*.  
+Where tz is a *POSIX* timezone string. For example Central Europe is: "CEST-1CET,M3.2.0/2:00:00,M11.1.0/2:00:00", New York is: "EST5EDT,M3.2.0/2:00:00,M11.1.0/2:00:00". China is simply "CST-8".  
 
 
 
