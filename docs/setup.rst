@@ -20,7 +20,7 @@ By default the tracker shows time in UTC. The time is set automatically by the G
 
   timezone <tz>
 
-Where tz is a *POSIX* timezone string. For example Central Europe is: "CEST-1CET,M3.2.0/2:00:00,M11.1.0/2:00:00", New York is: "EST5EDT,M3.2.0/2:00:00,M11.1.0/2:00:00". China is simply "CST-8".  
+Where tz is a *POSIX* timezone string. For example Central Europe is: "CEST-1CET,M3.2.0/2:00:00,M11.1.0/2:00:00", New York is: "EST5EDT,M3.2.0/2:00:00,M11.1.0/2:00:00". China is "CST-8".  
 
 
 
