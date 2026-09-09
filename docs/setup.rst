@@ -43,10 +43,10 @@ If at least one tracker is connected it will automatically discover other tracke
 The web-app has a menu line with 5 choices (in addition you can select and set up connections to trackers): 
 
 * *Status* - show info on tracker
-* *Wifi* - configure Wifi access points, Wifi Soft AP and keys. 
+* *Keys* - configure Wifi access points, Wifi Soft AP and keys for encryption/authentication. 
 * *Aprs* - Configure callsign, radio frequency, APRS confg like symbol, path, etc..
 * *Digi/Igate* - Digipeater and igate setup. 
-* *TrkLog* - Track logging setup. Automatic uploading of tracks to a Polaric Server instance.
+* *Misc* - Track logging setup (automatic uploading of tracks to a Polaric Server instance). OTA firmware upgrade.
 
 .. image:: img/webapp.2.png
 
@@ -100,7 +100,7 @@ Press and hold the button in about one second to activate a menu on the display.
 * Igate On|Off
 * Digipeater On|Off
 * Track logging On|Off
-* Firmware upgrade
+* Firmware upgrade (OTA)
 
 The On|Off settings shows On or Off depending on the setting. If it is already is off, the menu will show "On" (to allow turning it on). The menu popup will go away when you have cycled through all items. It is of course a good idea to be sure things are configured correctly, using the webapp or the command-shell, before trying to turn them on with this menu. 
 
