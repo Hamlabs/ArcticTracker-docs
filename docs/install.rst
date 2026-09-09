@@ -2,7 +2,7 @@
 Installing Arctic Tracker firmware
 ==================================
 
-A quick way to get a tracker up and running is to install a pre-built firmware image. For full control you could build the firmware yourself. It can be useful if you want to modify the code or if you for maximum security want to generate a SSL-certificate specifically for your firmware and keep the private key secret. 
+A quick way to get a tracker up and running is to install a pre-built firmware image. For full control you could build the firmware yourself. It can be useful if you want to modify the code. 
 
 Flashing a pre-built binary
 ---------------------------
