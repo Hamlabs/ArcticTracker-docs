@@ -13,7 +13,17 @@ The Arctic Tracker offers a serial console (command shell).  This lets you contr
 The ‘help‘ command gives you a list of available commands. ‘help <command>‘ gives a short explanation of the given command. Be sure to set the callsign (‘mycall‘). The ‘tracker’ command turns on or off the tracking function (it is on by default). ‘radio’ command turns on or off the radio (it is on by default). The ‘wifi on’ command turns on the WIFI. The ‘ap’ command lets you set up a list of WIFI access points. The tracker will try to connect to these in order if they are in range. If the first one fails, it will try the next. Also, before you try to use the webapp, use the ‘api-key’ to set a secret key to be used for the webapp to authenticate. If things are working as expected, you should also be able to get to the most important settings with a web-browser.
 
 ﻿﻿The 'digipath' (digipeater path) is by default set to 'WIDE1-1', if you need to use multi-hop digipeating it could be set to '"WIDE1-1,WIDE2-2'. 'timestamp' (timestamped packets) and 'compress' (compressed packets) are also on by default. 'symbol' (aprs symtable/overlay and symbol) is by default set to'/[' which means a running person is to be shown on the map.
- 
+
+Setting your time zone
+----------------------
+By default the tracker shows time in UTC. You can however set the timezone and then it will show local time. Use::
+
+  timezone <tz>
+
+Where tz is a POSIX timezone string. For example Central Europe is: *"CEST-1CET,M3.2.0/2:00:00,M11.1.0/2:00:00"*, New York is: *"EST5EDT,M3.2.0/2:00:00,M11.1.0/2:00:00"*. China is simply *"CST-8"*.  
+
+
+
 Connecting to a Wifi access point
 ---------------------------------
 The first time the tracker is used, you could use the 'ap' command to set the access-point to use.::
