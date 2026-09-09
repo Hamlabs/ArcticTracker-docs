@@ -12,7 +12,11 @@ Download the proper *ArcticTracker.xx.zip* file and unpack it in a directory. Go
 
 You may choose to update only the app (ArcticTracker.bin) or the Webapp (webapp.bin) if you want and if the other parts are in place. Use the the addresses provided. 
 
-I hope to add some information about flashing via the WIFI (OTA flashing).. 
+OTA Flashing
+------------
+*OTA flashing* is fully supported from v.4.1 and firmware and corresponding webapp will be available on arctictracker.no. 
+
+Use the webapp or command shell to set two URLS: One for the firmware and one for the webapp. The OTA install can then be initiated from the tracker (button/display), the webapp or the command shell.
 
 Building the firmware
 ---------------------
