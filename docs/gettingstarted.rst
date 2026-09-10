@@ -11,4 +11,4 @@ The firmware can be built from the source using esp-idf. Or installed from a bin
 
    install
    setup
-   
+   webapp
