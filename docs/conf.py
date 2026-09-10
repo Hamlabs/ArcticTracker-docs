@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Polaric Server'
-copyright = '2023, LA7ECA Øyvind Hanssen'
+project = 'Arctic Tracker'
+copyright = '2026, LA7ECA Øyvind Hanssen'
 author = 'ohanssen@acm.org'
 
 release = 'latest'
