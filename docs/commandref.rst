@@ -1,19 +1,21 @@
 Command Reference
 =================
-This is a complete list of the commands that are available in the command-shell (console). Many of them are setting. The most important settings can also be accessed through the REST-API (Web application). 
+This is a complete list of the commands that are available in the command-shell (console). Many of them are settings. The most important settings can also be accessed through the Web-application (REST API). 
 
 System commands
 ---------------
 **cd** <directory>
-    Change working directory
+    Change working directory (file system)
 **format** 
     Reformat file system. 
 **free**
     Show amount of free memory (in bytes)
 **fw-uprade**
-    OTA Firmware upgrade
+    Initiate OTA Firmware upgrade (fw-url and webapp-url must be correctly set)
 **fw-url** <url>
-    Location of the OTA Firmware file (including the file name).  
+    Location of the OTA Firmware file (including the file name). 
+**webapp-url** <url>
+    Location of the OTA Firmware file (including the file name). 
 **ioconfig** <gpio-num>
     Show info on GPIO configuration (for developing/debugging)
 **trk-reset** 
@@ -30,13 +32,13 @@ System commands
     Show NMEA data stream from GNSS. Use 'raw' switch to indicate that all data is to be shown. Otherwise only 
     fixed data will be shown. 
 **rm** <file>
-    Remove file
+    Remove file (in file system)
 **read** <file>
-    Read content from file
+    Read content from file (in file system)
 **sysinfo**.
     Show system information. 
 **restart** 
-    Restart the system
+    Restart the system (reboot)
 **tasks**
     Show list of tasks running in system (threads/processes)
 **time**
