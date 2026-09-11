@@ -35,6 +35,8 @@ System commands
     Remove file (in file system)
 **read** <file>
     Read content from file (in file system)
+**rssi**
+    Show signal strength on radio receiver. 
 **sysinfo**.
     Show system information. 
 **restart** 
@@ -49,8 +51,7 @@ System commands
     Show battery status and voltage.
 **write** <file>
     Write content to file
-**rssi**
-    Show signal strength on radio receiver. 
+
 
 
 
@@ -63,14 +64,14 @@ Networking commands
     WIFI SoftAP password.
 **ap-ip** [<ip>]
     WIFI SoftAP IP address. Default is 192.168.0.1. 
-**ap-ssid** [<ssid>]
-    WIFI SoftAP SSID setting. Default is 'Arctic_XXXX' where XXXX is mycall. Should work in most cases.
-**ap-sta**
-    Show WIFI SoftAP connected stations.
 **api-key** [<key>]
     REST API secret key. 
 **api-origins** [<regex>]
     Allowed origins for REST API webclients. Default is to allow all.
+**ap-ssid** [<ssid>]
+    WIFI SoftAP SSID setting. Default is 'Arctic_XXXX' where XXXX is mycall. Should work in most cases.
+**ap-sta**
+    Show WIFI SoftAP connected stations.
 **cert-new**
     Create new certificate for tracker. From v4.1. 
 **cert-sign**
@@ -110,7 +111,7 @@ APRS tracking commands
 **compress** [on|off]
     Compress setting 
 **crypto** [on|off]
-    Encrypt APRS packets. 
+    Encrypt APRS position packets. 
 **crypto-key** <key>
     Secret (password/passphrase) used to generate a key for encryption.
 **extraturn**  [on|off]
@@ -191,8 +192,8 @@ The tracker can store position-reports in the file-system and upload them to a P
     Track log automatic post to server 
 **trklog-ttl** [<val>]
      Max time to keep tracklog entries (hours). Default 24. 
-**trklog-key** [<key>]
-    KEY for authenticating tracklog-messages to Polaric Server 
+**server-key** [<key>]
+    KEY for authenticating calls from tracker (e.g. tracklog updates) to Polaric Server 
 **trklog-url** [<url>]
     URL for posting tracklog updates to Polaric Server 
 
