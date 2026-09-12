@@ -14,7 +14,7 @@ You may choose to update only the app (ArcticTracker.bin) or the Webapp (webapp.
 
 OTA Flashing
 ------------
-*OTA flashing* is fully supported from v.4.1 and firmware and corresponding webapp will be available on arctictracker.no. 
+*OTA flashing* is fully supported from v.4.1 and firmware will be available on arctictracker.no. 
 
 Use the webapp or command shell to set two URLS: One for the firmware and one for the webapp. The OTA install can then be initiated from the tracker (button/display), the webapp or the command shell.
 
