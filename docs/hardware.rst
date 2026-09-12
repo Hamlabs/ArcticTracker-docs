@@ -28,6 +28,7 @@ There seems to be an issue with the squelch of the SA868, but with the use of a 
 
 .. image:: img/20240922_154745.jpg
    :width: 80%
+   :alt: VHF tracker in use
 
 Arctic Tracker 4 UHF/LoRa
 -------------------------
@@ -36,6 +37,8 @@ A UHF version (433 MHz) has also been made that can operate on LoRa APRS. It is 
 The UHF version of the tracker can transmit with up to 1 watt output and has an enhanced receiver.
 
 .. image:: img/20241119_213542.jpg
+   :width: 80%
+   :alt: UHF (LoRa) version PCB
 
 
 LilyGo T-TWR Plus
@@ -43,5 +46,6 @@ LilyGo T-TWR Plus
 `LilyGo <https://lilygo.cc>`_ offers a series of innovative open source hardware boards, most of them using the ESP32 and many of them with a radio module (typically LoRa), a GNSS module, etc. One particular board (for radio amateurs) is the T-TWR-plus. Coming with a VHF or UHF radio module, a GNSS module, a ESP32S3, etc. It can be used as a voice-radio, even a digital voice radio (with M17) as done in the OpenRTX project, but also as a APRS tracker as done in the ESP32APRS project. The T-TWR has many similarities with the Arctic Tracker prototype, so I got a question if I could be interested in porting the Arctic Tracker software to it. So I did and this also inspired me to work further with the Arctic Tracker hardware. 
 
 .. image:: img/trackers.jpg
-
+   :width: 80%
+   :alt: T-TWR-plus and Arctic Tracker
 
