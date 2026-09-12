@@ -34,8 +34,8 @@ It is also possible to use the web-interface to control the use of encryption.
 Track logging
 -------------
 
-Arctic tracker can log positions in memory (e.g. every 10th second) and automatically upload this over the internet to a Polaric Server instance. The idea is that while the tracker sends updates over radio and this is shown on the map almost immediately, the tracks can later be enhanced with more precise info (better time-resolution and filling in gaps) when the tracker is in range of a Wifi network. 
+Arctic tracker can log positions in flash-memory (e.g. every 10th second) and automatically upload this over the internet to a *Polaric Server* instance. Positions are logged in the file system under the subdirectory *'trklog'*. The format is binary and highly compressed, so days of data may be stored. The idea is that while the tracker sends updates over radio and this is shown on the map almost immediately, the trails can later be enhanced with more precise info (better time-resolution and filling in gaps) when the tracker is in range of a Wifi network. 
 
-Track-log uploads uses a protocol and authentication mechanism similar to the REST API of the web-app. Data is JSON encoded when uploaded. It is necessary to set a key (for authentication) before using this feature. 
+Track-log uploading uses a protocol and authentication mechanism similar to the REST API of the web-app. Data is JSON encoded when uploaded. It is necessary to set a key (for authentication) before using this feature. 
 
-In the web-app, track logging can be configured in the Misc tab. See also `commands related to track-logging <https://arctictracker-docs.readthedocs.io/en/latest/commandref.html#track-logging-commands>`_..
+In the web-app, track logging can be configured in the Misc tab. See also `commands related to track-logging <https://arctictracker-docs.readthedocs.io/en/latest/commandref.html#track-logging-commands>`_.
