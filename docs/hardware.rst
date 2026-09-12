@@ -27,7 +27,7 @@ The transmitter yields up to 3 watts output. This may cause the PMU to shut down
 There seems to be an issue with the squelch of the SA868, but with the use of a software squelch (for decoding) and the RSSI command for deciding if the channel is clear for transmission, it works well. The SA868 is also open in the sense that alternative (open source) firmware can be flashed to it using contacts on its back-side. Currently we use it with the stock firmware. This may change later.
 
 .. image:: img/20240922_154745.jpg
-   :width: 80%
+   :width: 70%
    :alt: VHF tracker in use
 
 Arctic Tracker 4 UHF/LoRa
