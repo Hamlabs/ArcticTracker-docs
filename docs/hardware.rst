@@ -14,7 +14,6 @@ After the pandemic there was time for a `critical review <http://hamlabs.no/2022
 .. image:: img/20221219_135321.jpg
    :width: 80% 
    :alt: Third round prototypes
-   :title: Third round prototypes
 
 
 See all `Hamlabs posts on Arctic Tracker here <https://web.archive.org/web/20240416112000/http://hamlabs.no/category/projects/at/>`_ (via Wayback machine).
