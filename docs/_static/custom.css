@@ -1,4 +1,4 @@
 /* Make the container wider but keep a ceiling limit */
 .wy-nav-content {
-    max-width: none !important; 
+    max-width: 1200px !important; 
 }
