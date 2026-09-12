@@ -12,6 +12,10 @@ Then came the ESP32 and the `second round prototype <https://web.archive.org/web
 After the pandemic there was time for a `critical review <http://hamlabs.no/2022/03/18/arctic-tracker-what-now/>`_ and some options were considered. Some design flaws were discussed and a `third round prototype <https://web.archive.org/web/20240416112000/http://hamlabs.no/2023/01/10/arctic_third_round/>`_ was designed. It used another display on the outside of the enclosure (with a 3D-printed cover), it added a charger chip for the battery and a USB-C breakout module. It didn't use power from the USB to charge the battery though. It replaced a problematic switch for the PA-module. The plain ESP32 was replaced with a ESP32S3. This tracker worked reasonably well though the battery and charging was problematic. 5 working prototypes were made. 
 
 .. image:: img/20221219_135321.jpg
+   :width: 80% 
+   :alt: Third round prototypes
+   :title: Third round prototypes
+
 
 See all `Hamlabs posts on Arctic Tracker here <https://web.archive.org/web/20240416112000/http://hamlabs.no/category/projects/at/>`_ (via Wayback machine).
 
@@ -24,7 +28,7 @@ The transmitter yields up to 3 watts output. This may cause the PMU to shut down
 There seems to be an issue with the squelch of the SA868, but with the use of a software squelch (for decoding) and the RSSI command for deciding if the channel is clear for transmission, it works well. The SA868 is also open in the sense that alternative (open source) firmware can be flashed to it using contacts on its back-side. Currently we use it with the stock firmware. This may change later.
 
 .. image:: img/20240922_154745.jpg
-
+   :width: 80%
 
 Arctic Tracker 4 UHF/LoRa
 -------------------------
