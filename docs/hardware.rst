@@ -22,9 +22,9 @@ Arctic Tracker 4 VHF
 --------------------
 In the fourth round it was decided to make another version of the VHF tracker, but with several changes (some of them inspired by the LilyGo projects): A NiceRF SA868 rado-module was used and the PA was dropped. This means that we could do with a 3.7V battery, a PMU was used to manage power and charging of the battery, a USB-C socket mounted directly on the PCB which was also used for charging and power-supply. A separate 5V DC/DC converter for the radio. A smaller (Hammond) enclosure with 3D printed top and bottom. The whole thing got simpler, but we also decided to design a 4-layer PCB and let the factory in China assemble most of it. Exceptions were the radio module, the antenna plug, the connector on the back and (in the first test-version) also the ESP32 module.
 
-The transmitter yields up to 3 watts output. This may cause the PMU to shut down the tracker if there is too much voltage drop in the battery (it is tested with some old batteries). The TX power can be turned down to about 1 watt from the software. 
+The transmitter yields up to 3 watts output. This may cause the PMU to shut down the tracker if there is too much voltage drop in the battery (it was tested with some old batteries). The TX power can be turned down to about 1 watt from the software. 
 
-There seems to be an issue with the squelch of the SA868, but with the use of a software squelch (for decoding) and the RSSI command for deciding if the channel is clear for transmission, it works well. The SA868 is also open in the sense that alternative (open source) firmware can be flashed to it using contacts on its back-side. Currently we use it with the stock firmware. This may change later.
+There seems to be an issue with the squelch of the SA868, but with the use of a software squelch (for decoding) combined with checking the RSSI level for deciding if the channel is clear for transmission, it works reasonably well. The SA868 is also open in the sense that alternative (open source) firmware can be flashed to it using contacts on its back-side. Currently we use it with the stock firmware. This may change later if someone has the capacity to do the job.
 
 .. image:: img/20240922_154745.jpg
    :width: 70%
@@ -32,9 +32,11 @@ There seems to be an issue with the squelch of the SA868, but with the use of a 
 
 Arctic Tracker 4 UHF/LoRa
 -------------------------
-A UHF version (433 MHz) has also been made that can operate on LoRa APRS. It is based on the VHF version where the SA-868 is replaced with a LoRa1268F30-Mini. The 5V regulator is also replaced since the module requires 4V for the transmitter. As soon as LoRa APRS became legal in Norway, i.e. the telecomms authorities opened up for up to 200 kHz bandwidth in the lower part of the 70 cm band, the PCB design was ready to be sent to production.
+A UHF version (433 MHz) has also been made. It can operate on LoRa APRS. It is based on the VHF version where the SA-868 is replaced with a LoRa1268F30-Mini. The 5V regulator is also replaced since the module requires 4V for the transmitter. As soon as LoRa APRS became legal in Norway, i.e. the telecomms authorities opened up for up to 200 kHz bandwidth in the lower part of the 70 cm band, the PCB design was ready to be sent to production.
 
-The UHF version of the tracker can transmit with up to 1 watt output and has an enhanced receiver.
+The UHF version of the tracker can transmit with up to 1 watt output and has a receiver with a LNA.
+
+I plan to make a limited number of trackers available for those who are interested for a reasonable price. If enough interest, maybe also the VHF tracker... 
 
 .. image:: img/20241119_213542.jpg
    :width: 80%
