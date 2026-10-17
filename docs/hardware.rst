@@ -32,11 +32,9 @@ There seems to be an issue with the squelch of the SA868, but with the use of a 
 
 Arctic Tracker 4 UHF/LoRa
 -------------------------
-A UHF version (433 MHz) has also been made. It can operate on LoRa APRS. It is based on the VHF version where the SA-868 is replaced with a LoRa1268F30-Mini. The 5V regulator is also replaced since the module requires 4V for the transmitter. As soon as LoRa APRS became legal in Norway, i.e. the telecomms authorities opened up for up to 200 kHz bandwidth in the lower part of the 70 cm band, the PCB design was ready to be sent to production.
+A UHF version (433 MHz) has also been made. It can operate on LoRa APRS (on the lower part of the 70 cm band). It is based on the VHF version where the SA-868 is replaced with a LoRa1268F30-Mini. The 5V regulator is also replaced since the module requires 4V for the transmitter. The UHF version of the tracker can transmit with up to 1 watt output and has a receiver with a LNA.
 
-The UHF version of the tracker can transmit with up to 1 watt output and has a receiver with a LNA.
-
-I plan to make a limited number of trackers available for those who are interested for a reasonable price. If enough interest, maybe also the VHF tracker... 
+I plan to make a limited number of trackers available for those who are interested for a reasonable price (NOK 1500). If enough interest, maybe also the VHF tracker.
 
 .. image:: img/20241119_213542.jpg
    :width: 80%
