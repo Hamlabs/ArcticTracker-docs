@@ -34,6 +34,7 @@ Contents
 
 .. toctree::
 
+   currenthardware
    hardware
    gettingstarted
    advanced
