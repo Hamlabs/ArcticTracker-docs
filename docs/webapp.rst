@@ -31,7 +31,7 @@ The web-app has a menu line with 5 choices (in addition you can select and set u
 Status tab
 ~~~~~~~~~~
 
-The status tab just shows some information from the tracker. It inmcludes the firmware version, memory space, connected AP, IPT-address and hostname, battery status, etc.. 
+The status tab just shows some information from the tracker. It includes the firmware version, memory space, connected AP, IP-address and hostname, battery status, etc.. 
 
 
 .. image:: img/webapp.3.png
