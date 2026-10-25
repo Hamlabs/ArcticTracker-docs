@@ -4,6 +4,8 @@ Installing Arctic Tracker firmware
 
 A quick way to get a tracker up and running is to install a pre-built firmware image. For full control you could build the firmware yourself. It can be useful if you want to modify the code. 
 
+If you have received a pre-flashed tracker, it may be sufficient to just use OTA-flashing to keep it updated. 
+
 Flashing a pre-built binary
 ---------------------------
 We intend to post pre-compiled binaries with each release and are also available `here <https://arctictracker.no/download/>`_. The complicating factor is that there are more than one way to do it and that the firmware consists of multiple parts: The *bootloader*, the *partition table*, *the webapp*, etc.. 
