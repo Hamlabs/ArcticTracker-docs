@@ -22,7 +22,7 @@ The time is set automatically by the GNSS or (if available) using SNTP on the in
 
   timezone <tz>
 
-Where tz is a *POSIX* timezone string. For example Central Europe is: "CEST-1CET,M3.2.0/2:00:00,M11.1.0/2:00:00".
+Where tz is a *POSIX* timezone string. For example Europe/Oslo is: "CET-1CEST,M3.5.0,M10.5.0/3"
 
 
 Connecting to a Wifi access point
