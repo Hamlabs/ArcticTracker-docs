@@ -4,7 +4,7 @@ Installing Arctic Tracker firmware
 
 A quick way to get a tracker up and running is to install a pre-built firmware image. For full control you could build the firmware yourself. It can be useful if you want to modify the code. 
 
-If you have received a pre-flashed tracker, it may be sufficient to just use OTA-flashing to keep it updated. 
+If you have received a pre-flashed tracker, it may be sufficient to just use *OTA-flashing* to get updates to the firmware. 
 
 Flashing a pre-built binary
 ---------------------------
@@ -18,11 +18,11 @@ OTA Flashing
 ------------
 *OTA flashing* is fully supported from v.4.1 and firmware will be available on arctictracker.no. 
 
-Use the webapp or command shell to set two URLS: One for the firmware and one for the webapp. The OTA install can then be initiated from the tracker (button/display), the webapp or the command shell.
+Use the webapp or command shell to set two URLS: One for the firmware and one for the webapp. Be sure to use the correct URL for your hardware version. The OTA install can then be initiated from the tracker (button/display), the webapp or the command shell.
 
 Building the firmware
 ---------------------
-The firmware can be built from source with *esp-idf* (v4.1 is built on version 5.5.x) and the *idf.py* tool. Follow the instructions to install the *esp-idf* and run the necessary scripts there first to set it up. Download the *Arctic Tracker* repository into another directory. cd to this directory and run the following commands to add external components.:: 
+The firmware can be built from source with *esp-idf* (v4.2 is built on version 5.5.x) and the *idf.py* tool. Follow the instructions to install the *esp-idf* and run the necessary scripts there first to set it up. Download the *Arctic Tracker* repository into another directory. cd to this directory and run the following commands to add external components.:: 
 
   idf.py add-dependency "espressif/mdns^1.2.4" 
   idf.py add-dependency "espressif/led_strip^2.5.3" 
